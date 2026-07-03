@@ -6,7 +6,6 @@
 **Version:** 0.2
 **Last Reviewed:** July 3, 2026
 **Depends on:** `120_Origin.md`
-**This chapter answers:** Does the observation in Origin describe a real, general problem — or just one person's experience?
 
 ---
 
@@ -141,6 +140,7 @@ Later Model and Evaluation Lens chapters, which propose CEM's mechanism as a res
 
 - v0.1 — Initial draft. Observation through Conclusion established, along with an initial unified Supporting Evidence list and Challenges.
 - v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block. Added Assumptions section (four identified, each marked established/untested with source). Retyped Supporting Evidence into six categories per the evidence-typing fix discovered in `9900_Capture_Typed_Evidence.md` — this made visible a real gap: no External Research is currently cited anywhere in this chapter, only direct observation and industry signals. Added a corresponding Challenges item naming that gap explicitly. No change to Observation, Problem, Chain of Reasoning, or Conclusion content.
+- v0.3 — Removed the redundant "This chapter answers" metadata field, since Section 1 (Question) already carries this information. Later chapters use only "Depends on" in metadata, with the actual question stated once, in Section 1.
 
 ---
 
