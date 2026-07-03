@@ -3,7 +3,7 @@
 **Chapter Number:** 430
 **Title:** The Investigator
 **Status:** Draft
-**Version:** 0.2
+**Version:** 0.3
 **Last Reviewed:** July 3, 2026
 **Depends on:** `410_Six_Layer_Architecture.md`, `420_The_Four_Levels_of_Evidence.md`
 
@@ -19,7 +19,7 @@ What, precisely, is the Investigator allowed to do inside CEM's process — and 
 
 `410_Six_Layer_Architecture.md` establishes that Evidence Discovery and Evidence Evaluation are distinct layers. `420_The_Four_Levels_of_Evidence.md` establishes that CEM may state observations and patterns as fact, may offer interpretations only when marked as such, and must never make character judgments. Neither chapter defines who or what actually does this work. This chapter defines the Investigator's role precisely enough that later chapters (the dossier, Evidence Requirements) can build on a concrete job description rather than an implied one.
 
-In CEM's current implementation, per `140_CEM_Is_Not_an_AI_Framework.md`, this role is performed by an AI. Nothing in this chapter's definition of the role depends on that being true — a future implementation could fulfill the same role differently, and this chapter should still hold.
+In CEM's current implementation, per `140_CEM_Is_Not_an_AI_Framework.md`, this role is performed by an AI. Nothing in this chapter's definition of the role depends on that being true — a future implementation could perform the same role differently, and this chapter should still hold.
 
 ---
 
@@ -103,7 +103,7 @@ The Investigator does not evaluate evidence against a standard (that is Layer 5'
 
 # 10. Open Questions
 
-- What should the Investigator do when a piece of evidence cannot be verified? (Candidate for Evidence Requirements, chapter 470.)
+- What should the Investigator do when a piece of evidence cannot be verified? (Candidate for Evidence Requirements, chapter 490.)
 - How should the Investigator handle contradictory evidence discovered mid-conversation?
 - Should Verification eventually become its own distinct layer or role, given it doesn't cleanly belong to either Discovery or Evaluation as currently defined?
 - What does a real, generated Investigator report actually look like in practice? (Candidate for the Investigation Dossier chapter, 480.)
@@ -120,9 +120,9 @@ The Investigator does not evaluate evidence against a standard (that is Layer 5'
 
 # 12. Used By
 
-`480_Investigation_Dossier.md` — defines the concrete output format this chapter's "present transparent reports" responsibility produces.
+`480_The_Investigation_Dossier.md` — defines the concrete output format this chapter's "present transparent reports" responsibility produces.
 
-`470_Evidence_Requirements.md` — likely needs to address the verification gap this chapter identifies but does not resolve.
+`490_Evidence_Requirements.md` — likely needs to address the verification gap this chapter identifies but does not resolve.
 
 ---
 
@@ -130,6 +130,7 @@ The Investigator does not evaluate evidence against a standard (that is Layer 5'
 
 - v0.1 — Initial draft, built from item 3 of the July 3, 2026 conversation discoveries capture, mapped explicitly against the Six-Layer Architecture and Four Levels of Evidence chapters. Identified verification as a distinct function not cleanly belonging to either Discovery or Evaluation, and flagged as an open gap rather than resolved.
 - v0.2 — Renamed from "The AI Investigator" to "The Investigator," and body text genericized accordingly. The original title violated `140_CEM_Is_Not_an_AI_Framework.md`'s own requirement that later chapters be written so they would still hold under a future non-AI implementation. Added an explicit implementation note in Section 2 instead, stating that AI performs this role currently without the role's definition depending on that fact.
+- v0.3 — Fixed a broken filename reference in Used By: `480_Investigation_Dossier.md` corrected to `480_The_Investigation_Dossier.md`, matching the file's actual name. Updated Evidence Requirements references from chapter 470 to chapter 490 to match the current Master Index placeholder.
 
 ---
 
