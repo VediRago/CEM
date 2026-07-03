@@ -1,6 +1,10 @@
 # 130. The Problem
 
+**Chapter Number:** 130
+**Title:** The Problem
 **Status:** Draft
+**Version:** 0.2
+**Last Reviewed:** July 3, 2026
 **Depends on:** `120_Origin.md`
 **This chapter answers:** Does the observation in Origin describe a real, general problem — or just one person's experience?
 
@@ -58,7 +62,24 @@ The loss becomes significant under a specific, identifiable condition: **when th
 
 ---
 
-# 7. Conclusion
+# 7. Assumptions
+
+This chapter's reasoning depends on the following, not all of which are established here:
+
+- **Time, scale, and consistency are the correct, complete list of what summaries optimize for.** Untested. Named directly as a challengeable premise in Section 9 — this chapter does not verify the list is exhaustive.
+- **Reasoning, iteration, and judgment-under-ambiguity are among the qualities most associated with complex capability.** Untested. This is a stated premise, not backed by cited research in this chapter — also named explicitly in Section 9.
+- **A summary's fixed-size format necessarily discards content, rather than merely deprioritizing it.** Established within this chapter, Section 5 — argued as a structural, not incidental, property of fixed-size formats.
+- **The generalization from Origin's single observation to a structural claim about evaluation systems is valid.** Partially established here (Sections 4–6 provide the reasoning); fully tested only insofar as the reasoning holds up to the challenges in Section 9.
+
+---
+
+# 8. Chain of Reasoning
+
+*(See Sections 3–6 above, which together constitute this chapter's reasoning chain: observation → why the current approach exists → what it necessarily costs → when that cost becomes significant.)*
+
+---
+
+# 9. Conclusion
 
 The issue is not that résumés, portfolios, or interviews are broken.
 
@@ -68,34 +89,61 @@ This reframes Origin's personal observation as a general property of evaluation 
 
 ---
 
-# 8. Supporting Evidence
+# 10. Supporting Evidence
 
-- Origin's own observation (fifty days of dense, documented work becoming harder to communicate as it grew, not easier).
-- The existence of a competitive AI-hiring landscape (Findem, Mokka, and others) explicitly built around the claim that "evidence-based screening" beats keyword/résumé-only screening — an independent signal that this problem is recognized, not invented for this framework.
-- The SHRM 2026 finding that "the hiring process has become a black box," and a recruiter's own quote: "They don't care so much about your potential. They want real-time proof." (see `9900_Capture/` research notes, if formalized there.)
+**Direct observation:**
+- Origin's own observation (fifty days of dense, documented work becoming harder to communicate as it grew, not easier). This is the seed hypothesis this chapter tests, not independent confirmation of it.
+
+**Industry signals:**
+- The existence of a competitive AI-hiring landscape (Findem, Mokka, and others) explicitly built around the claim that "evidence-based screening" beats keyword/résumé-only screening — a signal that this problem is recognized industry-wide, not invented for this framework. This is directional evidence, not verified research.
+- The SHRM 2026 finding that "the hiring process has become a black box," and a recruiter's own quote: "They don't care so much about your potential. They want real-time proof." (see `9900_Capture/` research notes, if formalized there.) Sourced from trade reporting, not peer-reviewed research — treated accordingly as a weaker, directional signal.
+
+**External research:** None cited in this chapter. This is a genuine gap — no peer-reviewed or rigorously sourced research is yet cited to support Sections 5–6's central claims.
+
+**Case studies:** None.
+
+**Experiments:** None. CEM has not yet tested its own claims empirically.
+
+**External validation:** None.
 
 ---
 
-# 9. Challenges
+# 11. Challenges
 
 - This chapter argues from a constraint-and-tradeoff framing rather than a "summaries are bad" framing specifically to remain defensible — but that framing could itself be challenged: is "time, scale, and consistency" really the correct list of what summaries optimize for, or is it incomplete?
 - Section 5's claim that reasoning, iteration, and judgment-under-ambiguity are "often among the qualities most associated with complex capability" is currently unsupported by any cited research or evidence. It is stated as a reasonable premise, not a proven one, and should either be backed by evidence in a later revision or held explicitly as an open assumption.
 - Section 6's condition ("when capability is complex enough that it does not survive compression") is stated qualitatively, not with any measurable threshold. This is a real gap: without a way to identify in advance when the condition applies, the chapter's claim is harder to test or falsify.
 - This chapter does not yet address whether an AI-mediated alternative (CEM's actual proposed mechanism) avoids the same tradeoff or merely relocates it — that question belongs to later Model chapters, but the reader may reasonably expect it to be raised here.
+- (Added on migration) No External Research is cited anywhere in this chapter's Supporting Evidence — every source is either the founding personal observation or trade-press-level industry signal. Until peer-reviewed or rigorously sourced research is added, this chapter's central claim rests on weaker evidentiary footing than its confident tone might suggest.
 
 ---
 
-# 10. Open Questions
+# 12. Open Questions
 
 - Can the condition in Section 6 be made more precise — some way to identify, in advance, whether a given role or evaluation is at high risk of this specific failure?
 - Does CEM's own mechanism (AI-led investigation) introduce a new, different tradeoff of its own, in the same way summaries trade completeness for scale? (Candidate for a future Ethics or Model chapter.)
 
 ---
 
-# 11. Dependencies
+# 13. Dependencies
 
 `120_Origin.md`
 
-# 12. Used By
+---
+
+# 14. Used By
 
 Later Model and Evaluation Lens chapters, which propose CEM's mechanism as a response to the problem established here.
+
+---
+
+# 15. Revision History
+
+- v0.1 — Initial draft. Observation through Conclusion established, along with an initial unified Supporting Evidence list and Challenges.
+- v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block. Added Assumptions section (four identified, each marked established/untested with source). Retyped Supporting Evidence into six categories per the evidence-typing fix discovered in `9900_Capture_Typed_Evidence.md` — this made visible a real gap: no External Research is currently cited anywhere in this chapter, only direct observation and industry signals. Added a corresponding Challenges item naming that gap explicitly. No change to Observation, Problem, Chain of Reasoning, or Conclusion content.
+
+---
+
+# 16. Status
+
+Draft. Ready for Discussion.
