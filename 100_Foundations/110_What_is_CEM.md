@@ -45,3 +45,71 @@ A résumé is a claim. CEM evaluates evidence.
 ## Note
 
 This chapter defines what CEM is. Questions about why it exists, the problem it addresses, and how it operates belong to their respective chapters. Keeping those questions separate ensures each chapter answers only one question.
+
+---
+
+# Observation
+
+Minimal, by design. This chapter does not develop the observation that motivated CEM — see `120_Origin.md`. What appears here (the gap between real capability and what a summary can represent) is stated only as necessary context for the definition, not developed as evidence.
+
+---
+
+# Problem
+
+Minimal, by design. This chapter names the problem only as far as needed to justify the definition. The problem is developed and defended in `130_The_Problem.md`.
+
+---
+
+# Assumptions
+
+This chapter rests on assumptions it does not argue for directly:
+
+- Capability can be meaningfully discussed as something distinct from its summary.
+- Capability is something that can be evaluated at all.
+- Evidence is an appropriate basis for that evaluation, rather than, for instance, credentials or reputation alone.
+
+These assumptions are not defended here. They are developed and tested in later chapters — particularly `130_The_Problem.md` and the Model chapters.
+
+---
+
+# Chain of Reasoning
+
+Minimal, by design. A definitional chapter does not reason toward a conclusion the way an analytical chapter does — its reasoning is implicit in the definition itself. This section exists to satisfy the Blueprint's traceability requirement, not to duplicate reasoning that belongs in `120_Origin.md` or `130_The_Problem.md`.
+
+---
+
+# Supporting Evidence
+
+This chapter is definitional and therefore does not introduce evidence directly. The evidence supporting this definition is developed in `120_Origin.md` and `130_The_Problem.md`.
+
+---
+
+# Challenges
+
+This chapter does not argue its definition, but the definition itself can still be challenged. Open challenges include:
+
+- Is "capability" being defined too broadly to be useful?
+- Is "evidence" the correct organizing principle, or could another framing (e.g. trust, verification, track record) serve better?
+- Does this definition exclude cases that should reasonably fall under CEM's scope?
+
+These are not resolved here. They are acknowledged so the chapter does not present its definition as beyond question.
+
+---
+
+# Open Questions
+
+None at this chapter's scope.
+
+---
+
+# Revision History
+
+- v0.1 — Initial draft, definition and scope established.
+- v0.2 — Origin/identity content moved out to keep the chapter purely definitional; heading "What CEM is at its root" renamed to "The General Problem"; closing Note rewritten to state repository methodology rather than a writing instruction; compression claim in the opening softened from "loses most of what makes the work real" to "often obscures or omits important evidence of capability" (Rule 7 — Evidence Over Opinion).
+- v0.3 — Migrated to full Blueprint v1.2 compliance. Observation, Problem, and Chain of Reasoning marked as minimal-by-design rather than complete or not applicable, since a definitional chapter's reasoning is implicit rather than developed. Assumptions, Supporting Evidence, and Challenges corrected from "Not applicable" to honest deferred status — content exists in each case but is deliberately developed in later chapters, which is different from there being no content at all.
+
+---
+
+# Status
+
+Draft. Ready for Discussion.
