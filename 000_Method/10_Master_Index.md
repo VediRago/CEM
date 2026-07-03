@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.6  
+**Version:** 0.7  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -72,8 +72,8 @@ The method section defines how CEM is developed, revised, structured, and govern
 - [10_Master_Index.md](./10_Master_Index.md) — Authoritative repository map and navigation index.
 - [20_Repository_Conventions.md](./20_Repository_Conventions.md) — Defines repository organization and file conventions.
 - [30_CEM_Development_Lifecycle.md](./30_CEM_Development_Lifecycle.md) — Defines how CEM moves from capture to draft to discussion to frozen structure.
-- [90_Chapter_Blueprint.md](./90_Chapter_Blueprint.md) — Active chapter structure standard.
-- [90_Chapter_Blueprint_v1.2_Draft.md](./90_Chapter_Blueprint_v1.2_Draft.md) — Draft revision of the chapter blueprint, created from migration findings.
+- [90_Chapter_Blueprint.md](./90_Chapter_Blueprint.md) — Active v1.2 chapter structure standard.
+- [90_Chapter_Blueprint_v1.2_Draft.md](./90_Chapter_Blueprint_v1.2_Draft.md) — Historical draft that produced the active v1.2 standard.
 
 ---
 
