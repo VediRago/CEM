@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.2  
+**Version:** 0.3  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -136,17 +136,19 @@ The model section defines how CEM is configured and applied.
 
 ## Current Chapters
 
-- [410_The_Four_Levels_of_Evidence.md](../400_Model/410_The_Four_Levels_of_Evidence.md) — Defines the boundary between observation, pattern, interpretation, and character judgment.
+- [410_Six_Layer_Architecture.md](../400_Model/410_Six_Layer_Architecture.md) — Defines the six-layer structure that evidence passes through from raw work to human decision.
+- [420_The_Four_Levels_of_Evidence.md](../400_Model/420_The_Four_Levels_of_Evidence.md) — Defines the boundary between observation, pattern, interpretation, and character judgment.
 
 ## Planned / Proposed
 
-- `420_Company_Model.md`
-- `430_Evaluation_Lens.md`
-- `440_Company_Values.md`
-- `450_Capability_Profiles.md`
-- `460_Evidence_Requirements.md`
-- `470_Confidence_Model.md`
-- `480_Decision_Support.md`
+- `430_AI_Investigator.md`
+- `440_Company_Model.md`
+- `450_Evaluation_Lens.md`
+- `460_Company_Values.md`
+- `470_Capability_Profiles.md`
+- `480_Evidence_Requirements.md`
+- `490_Investigation_Dossier.md`
+- `495_Decision_Support.md`
 
 ---
 
@@ -263,8 +265,8 @@ Nothing should remain in Capture permanently.
 - [Typed_Evidence.md](../9900_Capture/Typed_Evidence.md) — Captures the discovery that supporting evidence should be typed rather than mixed.
 - [Standardization_vs_Depth.md](../9900_Capture/Standardization_vs_Depth.md) — Captures the tension between open-ended depth and standardized evaluation.
 - [CEM_9900_Capture_Remaining_Discoveries.md](../9900_Capture/CEM_9900_Capture_Remaining_Discoveries.md) — Holds July 3 discoveries not yet drafted into chapters.
-- [CEM_9900_Capture_Five_Layer_Architecture.md](../9900_Capture/CEM_9900_Capture_Five_Layer_Architecture.md) — Captures the unresolved five-layer evaluation architecture proposal.
-- [CEM_9900_Capture_Observation_vs_Conclusion.md](../9900_Capture/CEM_9900_Capture_Observation_vs_Conclusion.md) — Captures the original observation-versus-conclusion boundary before it became Chapter 410.
+- [CEM_9900_Capture_Five_Layer_Architecture.md](../9900_Capture/CEM_9900_Capture_Five_Layer_Architecture.md) — Captures the unresolved five-layer evaluation architecture proposal before it was reconciled in Chapter 410.
+- [CEM_9900_Capture_Observation_vs_Conclusion.md](../9900_Capture/CEM_9900_Capture_Observation_vs_Conclusion.md) — Captures the original observation-versus-conclusion boundary before it became Chapter 420.
 
 ---
 
