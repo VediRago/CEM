@@ -42,6 +42,16 @@ If a new chapter belongs between Origin and The Problem:
 
 ---
 
+## Path Convention
+
+Chapter entries list chapter filenames.
+
+Repository paths are determined by their section folders.
+
+Example: `120_Origin.md` belongs in `100_Foundations/` because it is listed under `100 — Foundations`.
+
+---
+
 # 100 — Foundations
 
 The foundation section defines what CEM is, why it exists, and what problem it attempts to answer.
