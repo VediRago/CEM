@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.4  
+**Version:** 0.5  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -141,6 +141,10 @@ The model section defines how CEM is configured and applied.
 - [430_The_Investigator.md](../400_Model/430_The_Investigator.md) — Defines the Investigator role and its responsibilities within the six-layer structure and four evidence levels.
 
 ## Planned / Proposed
+
+**Note:** Chapters listed under Planned / Proposed are working placeholders used for repository planning. Their titles, scope, numbering, and ordering are provisional until they enter active development and their supporting reasoning has been established. They should not be interpreted as finalized architecture.
+
+**Current note:** The Model roadmap is expected to undergo a second architecture pass before additional Model chapters enter active development. See the open questions in `430_The_Investigator.md`.
 
 - `440_Company_Model.md`
 - `450_Evaluation_Lens.md`
