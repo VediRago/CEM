@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -117,11 +117,14 @@ The philosophy section defines the principles that govern how CEM thinks.
 
 The core concepts section defines the conceptual vocabulary of CEM.
 
+## Current Chapters
+
+- [330_Confidence.md](../300_Core_Concepts/330_Confidence.md) — Defines how confidence is represented in CEM across different evidence levels and distinguishes confidence in Observations from confidence in Patterns.
+
 ## Planned / Proposed
 
 - `310_Capability.md`
 - `320_Evidence.md`
-- `330_Confidence.md`
 - `340_Evaluation.md`
 - `350_Context.md`
 - `360_Explainability.md`
