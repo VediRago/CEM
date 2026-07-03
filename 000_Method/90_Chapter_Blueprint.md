@@ -1,6 +1,6 @@
 # 90. CEM Chapter Blueprint
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** Frozen
 
 > **This is not a template.**
@@ -10,6 +10,8 @@
 Every chapter in this repository is developed using this blueprint.
 
 Its purpose is to ensure that every chapter follows the same reasoning process, the same level of rigor, and the same standard of evidence.
+
+**v1.2 changes:** Added the Blueprint Interpretation principle ("Minimal, by design") and clarified the Assumptions instruction to specify whether assumptions are established within the chapter, established elsewhere, or currently untested. Both changes were discovered by migrating the Foundation chapters and finding genuine ambiguity in how different chapter types should use the Blueprint.
 
 ---
 
@@ -59,13 +61,19 @@ What problem emerges from the observation?
 
 # 5. Assumptions
 
-List every assumption the chapter depends on.
+List the assumptions on which the chapter's reasoning depends.
+
+For each assumption, indicate whether it is:
+
+- established within this chapter,
+- established elsewhere in the framework,
+- or currently untested.
 
 Assumptions are not conclusions.
 
-They are hypotheses that require testing.
+They are hypotheses or dependencies that require visibility.
 
-Each assumption should be explicit.
+Each important assumption should be explicit.
 
 Example:
 
@@ -200,6 +208,28 @@ Only Rule 8 — Challenge the Framework may reopen a frozen chapter.
 
 ---
 
+# Blueprint Interpretation
+
+Every chapter follows the Blueprint.
+
+However, not every chapter exercises every section equally.
+
+Some chapters are definitional.
+
+Some are analytical.
+
+Some are methodological.
+
+When a section is intentionally brief because its responsibility belongs to another chapter, it should be marked:
+
+**Minimal, by design.**
+
+A section should never be omitted silently or marked "Not applicable" if its content exists elsewhere in the framework.
+
+The Blueprint exists to make reasoning traceable, not to force every chapter into identical proportions.
+
+---
+
 # The Visible Chain
 
 Every chapter should visibly follow this sequence:
@@ -241,3 +271,30 @@ Status
 Nothing enters the framework without earning its place.
 
 Nothing remains in the framework without surviving challenge.
+
+---
+
+# Revision Notes
+
+## Version 1.1 — Frozen
+
+Reason:
+
+Initial frozen Blueprint established chapter structure and reasoning discipline.
+
+Outcome:
+
+Reaffirmed as the foundation for v1.2.
+
+## Version 1.2 — Frozen
+
+Reason:
+
+Migration of the Foundation chapters exposed two ambiguities in Blueprint v1.1:
+
+- not every chapter exercises every Blueprint section equally;
+- assumptions may be established within the chapter, inherited from elsewhere in the framework, or remain untested.
+
+Outcome:
+
+Revised and frozen as the active chapter standard.
