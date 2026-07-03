@@ -3,7 +3,7 @@
 **Chapter Number:** 120
 **Title:** Origin
 **Status:** Draft
-**Version:** 0.2
+**Version:** 0.4
 **Last Reviewed:** July 3, 2026
 
 ---
@@ -68,7 +68,7 @@ Perhaps the problem is the expectation that capability should be summarized at a
 
 If evidence could be explored rather than compressed, this would fix two sides of the same failure, not one.
 
-A candidate would get what a real conversation offers — patience, time, and back-and-forth — instead of being cut down to fit someone else's schedule. The candidate's failure, under the current system, is compression under time pressure: being forced to guess in advance what matters, and losing whatever doesn't survive the guess.
+A candidate would get what a real conversation offers — patience, time, and back-and-forth — instead of being cut down to fit someone else's schedule. In effect, this gives every candidate the kind of patience and investigation normally reserved for a small number of finalists. The candidate's failure, under the current system, is compression under time pressure: being forced to guess in advance what matters, and losing whatever doesn't survive the guess.
 
 An evaluator would receive something a summary can never give: evidence of actual skill, not a description of it. The evaluator's failure, under the current system, is trusting claims because there is no time to verify them.
 
@@ -120,6 +120,7 @@ None.
 - v0.1 — Initial draft. Observation, Problem, and Chain of Reasoning established.
 - v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block, Assumptions (three identified, each marked established/untested per source), Supporting Evidence (typed per the Capture note on evidence typing), and Challenges. Updated the "Used By" reference to `130_The_Problem.md`, which did not exist at the time of the previous version. No change to Observation, Problem, Chain of Reasoning, or Conclusion.
 - v0.3 — Layout normalization: numbered all section headings consistently (previously unnumbered) to match the standard used in later chapters. No content or reasoning changed.
+- v0.4 — Closed item 22 of the July 3, 2026 conversation discoveries ("patience at scale"). Folded its language directly into the existing Chain of Reasoning sentence about what a candidate gains, rather than adding it as a separate pull-quote — it sharpens a claim already being made rather than introducing a new one.
 
 ---
 
