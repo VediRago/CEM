@@ -3,7 +3,7 @@
 **Chapter Number:** 480
 **Title:** The Investigation Dossier
 **Status:** Draft
-**Version:** 0.4
+**Version:** 0.5
 **Last Reviewed:** July 3, 2026
 **Depends on:** `410_Six_Layer_Architecture.md`, `420_The_Four_Levels_of_Evidence.md`, `430_The_Investigator.md`
 
@@ -59,7 +59,7 @@ This gives Pattern-type Findings a direct mechanism for confidence: since a Patt
 
 The Investigation Dossier is a structured document, not a narrative account of the conversation that produced it. Its primary content is a set of **Findings**, where each Finding is either an Observation (Level 1) or a Pattern (Level 2) — not two separate categories, but two tiers within the same category, consistent with `420_The_Four_Levels_of_Evidence.md`. Each Finding carries its own confidence and verification status rather than the dossier receiving a single overall score.
 
-Beyond Findings, the dossier separately reports Unresolved Questions (gaps the Investigator could not determine, distinct from low confidence) and Additional Observations (relevant evidence outside the immediate evaluation criteria, kept structurally separate since it serves Human Decision differently than the primary findings).
+Beyond Findings, the dossier separately reports Unresolved Questions (gaps the Investigator could not determine, distinct from low confidence) and Additional Observations (relevant evidence outside the immediate evaluation criteria, kept structurally separate since it serves Human Decision differently than the primary findings). Additional Observations exist because a candidate who is not a match for the specific role being evaluated may still show recurring strengths valuable elsewhere in the organization — this category preserves that evidence rather than discarding it simply because it falls outside the current evaluation's scope. What later actors do with that evidence is outside this chapter's scope; the dossier's responsibility is only to preserve it, not to decide its use.
 
 The dossier may contain Level 3 interpretation only when it is explicitly identified as interpretation. It never contains Level 4 character judgment under any circumstance.
 
@@ -169,6 +169,7 @@ Future Decision Support chapter — the dossier is what Layer 6 (Human Decision)
 - v0.2 — Restructured Findings so Observation and Pattern are two tiers within one category (Finding), rather than two separate parallel categories — this had been an unintentional inconsistency with Section 5's own reasoning, which already treated Pattern as Level 2 within the same evidence hierarchy as Observation's Level 1. Added a canonical dossier structure (Investigation Metadata, Findings, Additional Observations, Unresolved Questions, Traceability) so the chapter shows the actual artifact rather than only its governing rules.
 - v0.3 — Fixed the Statement field wording, which had said findings are "stated as fact" uniformly — this failed to preserve the distinction between Observation (genuinely factual) and Pattern (a fact about a pattern's existence, but bounded by what supporting evidence justifies). Flagged Traceability as a possible future core CEM principle in Open Questions, without expanding scope to formalize it as its own chapter yet.
 - v0.4 — Closed item 21 of the July 3, 2026 conversation discoveries (confidence grows with repetition). Confirmed this is not a new concept but was already implicit in the Pattern/confidence design — added explicit reasoning connecting independent source count to confidence for Pattern-type Findings, and logged the unresolved scale/threshold question in Open Questions rather than leaving it unstated.
+- v0.5 — Closed item 19 of the July 3, 2026 conversation discoveries (additional/incidental observations). The dossier's Additional Observations category already existed but was defined generically; sharpened it to state the specific reason it exists — a candidate not matching the current role may still show strengths valuable elsewhere in the organization — and clarified that the dossier's responsibility is only to preserve that evidence, not to decide how it is used, deferring that question to future Actors chapters.
 
 ---
 
