@@ -82,14 +82,83 @@ Nothing earns a permanent place simply because it was written first.
 
 ---
 
-# Suggested Reading Order
+# Start Here
 
-1. **000_Method/10_Master_Index.md** — The map of the framework.
-2. **100_Foundations/110_What_is_CEM.md** — The simplest serious definition of CEM.
-3. **100_Foundations/120_Origin.md** — Why the question behind CEM became impossible to ignore.
-4. **100_Foundations/130_The_Problem.md** — Why the origin points to a broader evaluation problem.
-5. **000_Method/00_CEM_Development_Method.md** — How the framework is developed.
-6. **000_Method/90_Chapter_Blueprint.md** — How every chapter is reasoned and documented.
+If you're new to CEM, begin with the three Foundation chapters.
+
+Together, they introduce the framework in the same order it was discovered.
+
+---
+
+## 110 — What is CEM?
+
+Defines the Capability Evidence Model.
+
+**Answers:**
+
+> *What is CEM?*
+
+➡️ **[Read Chapter 110 — What is CEM](./100_Foundations/110_What_is_CEM.md)**
+
+---
+
+## 120 — Origin
+
+Documents the observation that led to the creation of CEM.
+
+**Answers:**
+
+> *Why did this question become impossible to ignore?*
+
+➡️ **[Read Chapter 120 — Origin](./100_Foundations/120_Origin.md)**
+
+---
+
+## 130 — The Problem
+
+Examines whether that observation describes a broader structural problem rather than one person's experience.
+
+**Answers:**
+
+> *Does this observation generalize beyond its origin?*
+
+➡️ **[Read Chapter 130 — The Problem](./100_Foundations/130_The_Problem.md)**
+
+---
+
+These chapters should be read in order.
+
+Together they establish:
+
+- what CEM is,
+- why it exists,
+- and why the problem is worth solving.
+
+---
+
+# Understanding the Framework
+
+After the Foundations, these documents explain how CEM itself is built.
+
+### Development Method
+
+➡️ **[00_CEM_Development_Method.md](./000_Method/00_CEM_Development_Method.md)**
+
+### Development Lifecycle
+
+➡️ **[30_CEM_Development_Lifecycle.md](./000_Method/30_CEM_Development_Lifecycle.md)**
+
+### Repository Conventions
+
+➡️ **[20_Repository_Conventions.md](./000_Method/20_Repository_Conventions.md)**
+
+### Chapter Blueprint
+
+➡️ **[90_Chapter_Blueprint.md](./000_Method/90_Chapter_Blueprint.md)**
+
+### Master Index
+
+➡️ **[10_Master_Index.md](./000_Method/10_Master_Index.md)**
 
 ---
 
