@@ -84,10 +84,10 @@ Nothing earns a permanent place simply because it was written first.
 
 # Suggested Reading Order
 
-1. **10_Master_Index.md** — The map of the framework.
-2. **120_Origin.md** — Why the question behind CEM became impossible to ignore.
-3. **00_CEM_Development_Method.md** — How the framework is developed.
-4. **90_Chapter_Blueprint.md** — How every chapter is reasoned and documented.
+1. **000_Method/10_Master_Index.md** — The map of the framework.
+2. **100_Foundations/120_Origin.md** — Why the question behind CEM became impossible to ignore.
+3. **000_Method/00_CEM_Development_Method.md** — How the framework is developed.
+4. **000_Method/90_Chapter_Blueprint.md** — How every chapter is reasoned and documented.
 
 ---
 
