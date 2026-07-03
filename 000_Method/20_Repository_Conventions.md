@@ -145,7 +145,7 @@ This allows the current chapter to remain stable while preserving meaningful his
 
 # 4. Using the Chapter Blueprint
 
-Every chapter must be developed using `90_Chapter_Blueprint.md`.
+Every chapter must be developed using `000_Method/90_Chapter_Blueprint.md`.
 
 The blueprint is completed before prose is written.
 
@@ -181,7 +181,7 @@ Minor edits remain documented through Git history.
 
 Version numbers are updated inside the file.
 
-The complete versioning workflow — including when to archive, how to update versions, and how to preserve history — is defined in `30_CEM_Development_Lifecycle.md`.
+The complete versioning workflow — including when to archive, how to update versions, and how to preserve history — is defined in `000_Method/30_CEM_Development_Lifecycle.md`.
 
 This document defines the repository convention.
 
