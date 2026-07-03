@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.9  
+**Version:** 1.0  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -276,6 +276,7 @@ Nothing should remain in Capture permanently.
 - [CEM_9900_Capture_Remaining_Discoveries.md](../9900_Capture/CEM_9900_Capture_Remaining_Discoveries.md) — Holds July 3 discoveries not yet drafted into chapters.
 - [CEM_9900_Capture_Five_Layer_Architecture.md](../9900_Capture/CEM_9900_Capture_Five_Layer_Architecture.md) — Captures the unresolved five-layer evaluation architecture proposal before it was reconciled in Chapter 410.
 - [CEM_9900_Capture_Observation_vs_Conclusion.md](../9900_Capture/CEM_9900_Capture_Observation_vs_Conclusion.md) — Captures the original observation-versus-conclusion boundary before it became Chapter 420.
+- [CEM_9900_Capture_Constitutional_Principle_Rule.md](../9900_Capture/CEM_9900_Capture_Constitutional_Principle_Rule.md) — Captures the proposed governance rule that CEM should maintain a single constitutional authority unless clear evidence requires revising that authority.
 
 ---
 
