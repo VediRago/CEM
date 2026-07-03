@@ -10,7 +10,7 @@ The repository documents the framework's reasoning, architecture, and developmen
 
 The authoritative navigation map for this repository is:
 
-`000_Method/10_Master_Index.md`
+[000_Method/10_Master_Index.md](000_Method/10_Master_Index.md)
 
 The Master Index contains:
 
@@ -33,8 +33,8 @@ Chapters progress through the documented development lifecycle and remain versio
 
 See:
 
-- `000_Method/00_CEM_Development_Method.md`
-- `000_Method/30_CEM_Development_Lifecycle.md`
+- [000_Method/00_CEM_Development_Method.md](000_Method/00_CEM_Development_Method.md)
+- [000_Method/30_CEM_Development_Lifecycle.md](000_Method/30_CEM_Development_Lifecycle.md)
 
 ---
 
