@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.8  
+**Version:** 0.9  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -248,9 +248,12 @@ The open questions section holds unresolved problems that need future reasoning.
 
 The development diary records how CEM evolves over time.
 
+## Current Entries
+
+- [1110_Development_Diary_Entry_1.md](../1100_Development_Diary/1110_Development_Diary_Entry_1.md) — Records the framework-first methodology and cross-project pattern recognition observed during CEM's development.
+
 ## Planned / Proposed
 
-- `1110_Daily_Log.md`
 - `1120_Design_Decisions.md`
 - `1130_Experiments.md`
 - `1140_Failed_Ideas.md`
