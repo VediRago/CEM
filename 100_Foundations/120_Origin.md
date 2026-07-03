@@ -8,13 +8,13 @@
 
 ---
 
-# Question
+# 1. Question
 
 Where did the Capability Evidence Model (CEM) come from?
 
 ---
 
-# Purpose
+# 2. Purpose
 
 This chapter documents the origin of CEM.
 
@@ -22,7 +22,7 @@ Its purpose is not to justify the framework, but to explain the observation that
 
 ---
 
-# Observation
+# 3. Observation
 
 While developing a portfolio over approximately fifty days, a recurring problem became apparent.
 
@@ -38,7 +38,7 @@ It was a lack of time to investigate that evidence.
 
 ---
 
-# Problem
+# 4. Problem
 
 Existing hiring processes optimize for speed.
 
@@ -50,7 +50,7 @@ This creates a gap between what a person is capable of and what another person c
 
 ---
 
-# Assumptions
+# 5. Assumptions
 
 This chapter's reasoning depends on the following, not all of which are established here:
 
@@ -60,7 +60,7 @@ This chapter's reasoning depends on the following, not all of which are establis
 
 ---
 
-# Chain of Reasoning
+# 6. Chain of Reasoning
 
 If capability cannot be communicated through increasingly shorter summaries, perhaps the problem is not communication itself.
 
@@ -80,7 +80,7 @@ That question was never really about hiring. It was about the gap between capabi
 
 ---
 
-# Supporting Evidence
+# 7. Supporting Evidence
 
 - **Direct observation:** The fifty-day portfolio-building experience described in this chapter's Observation section. This is the chapter's primary and, at this stage, only evidence.
 - **External research:** None introduced in this chapter. Industry-level research (SHRM 2026 findings, competitive landscape) is introduced in `130_The_Problem.md`, not here — Origin is deliberately kept to the personal observation that started the question.
@@ -88,7 +88,7 @@ That question was never really about hiring. It was about the gap between capabi
 
 ---
 
-# Challenges
+# 8. Challenges
 
 - Does one person's direct experience legitimately generalize to a claim about evaluation systems broadly, or is this an overgeneralization from a single, unusual case (fifty days of unusually dense, self-directed work, which most candidates do not have)? This is not resolved here — it is the question `130_The_Problem.md` exists to test.
 - The chain of reasoning asserts that "time, not evidence quantity" is the real bottleneck, but this chapter does not test that claim against any case where more time was available and evaluation still failed. If such cases exist, the chapter's central claim would need revision.
@@ -96,32 +96,33 @@ That question was never really about hiring. It was about the gap between capabi
 
 ---
 
-# Open Questions
+# 9. Open Questions
 
 - Does Origin's principle — "Origin answers why the question became impossible to ignore, not what the answer is" — hold as a general rule for how every future Origin-style chapter in this repository should be scoped?
 
 ---
 
-# Dependencies
+# 10. Dependencies
 
 None.
 
 ---
 
-# Used By
+# 11. Used By
 
 `110_What_is_CEM.md` — receives the identity/definition conclusion that Origin deliberately does not make.
 `130_The_Problem.md` — builds directly from this chapter's Observation and Problem sections, treating them as a hypothesis to test rather than restating them.
 
 ---
 
-# Revision History
+# 12. Revision History
 
 - v0.1 — Initial draft. Observation, Problem, and Chain of Reasoning established.
 - v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block, Assumptions (three identified, each marked established/untested per source), Supporting Evidence (typed per the Capture note on evidence typing), and Challenges. Updated the "Used By" reference to `130_The_Problem.md`, which did not exist at the time of the previous version. No change to Observation, Problem, Chain of Reasoning, or Conclusion.
+- v0.3 — Layout normalization: numbered all section headings consistently (previously unnumbered) to match the standard used in later chapters. No content or reasoning changed.
 
 ---
 
-# Status
+# 13. Status
 
 Draft. Ready for Discussion.
