@@ -1,16 +1,19 @@
 # 90. CEM Chapter Blueprint
 
+**Version:** 1.1  
 **Status:** Frozen
 
-**This is not a template. A blueprint tells us how to think, not just how to format.**
+> **This is not a template.**
+>
+> A blueprint tells us how to think, not just how to format.
 
-Every chapter in this repository is developed using this blueprint. It exists so that every chapter has the same depth, the same rigor, and the same auditable chain of reasoning — regardless of who writes it or when.
+Every chapter in this repository is developed using this blueprint.
 
-This is the equivalent of the Scene Blueprint System, applied to research instead of storytelling.
+Its purpose is to ensure that every chapter follows the same reasoning process, the same level of rigor, and the same standard of evidence.
 
 ---
 
-## Metadata
+# Metadata
 
 - Chapter Number:
 - Title:
@@ -20,125 +23,221 @@ This is the equivalent of the Scene Blueprint System, applied to research instea
 
 ---
 
-## 1. Question
+# 1. Question
 
 What single question does this chapter answer?
 
-One question only. If the discussion answers more than one, it belongs in more than one chapter.
+A chapter answers one question only.
 
 ---
 
-## 2. Purpose
+# 2. Purpose
 
-Why does this chapter exist? What does answering this question unlock for the rest of CEM?
+Why does this chapter exist?
 
----
-
-## 3. Observation
-
-What real event, experience, or pattern made this question necessary?
-
-This is not limited to something noticed out in the world. It can be something noticed in your own process, your own work, or a live interaction — anything real that happened before the question could be asked.
-
-No opinions here, only what actually happened.
+What does answering this question unlock for the rest of CEM?
 
 ---
 
-## 4. Problem
+# 3. Observation
 
-What problem does this chapter solve?
+What real event, experience, research, or pattern made this question necessary?
 
----
+Observation records reality.
 
-## 5. Chain of Reasoning
+It does not explain it.
 
-Step-by-step reasoning.
-
-No conclusions yet.
-
-This is the methodology itself, made visible — the same discipline as experience → emotion → reason → behavior, applied to a research question instead of a character or a world.
-
-Each step should be earned by the step before it.
+It does not solve it.
 
 ---
 
-## 6. Conclusion
+# 4. Problem
 
-What conclusion has been reached?
+What problem emerges from the observation?
 
 ---
 
-## 7. Supporting Evidence
+# 5. Assumptions
+
+List every assumption the chapter depends on.
+
+Assumptions are not conclusions.
+
+They are hypotheses that require testing.
+
+Each assumption should be explicit.
+
+Example:
+
+- Capability can be evaluated through evidence.
+- Summaries lose important evidence.
+- Better evidence leads to better decisions.
+
+---
+
+# 6. Assumption Testing
+
+Every important assumption should eventually be challenged.
+
+For each assumption ask:
+
+- Why do we believe this?
+- What evidence supports it?
+- What evidence contradicts it?
+- How could it be tested?
+- What result would falsify it?
+
+Status:
+
+- Untested
+- Being Tested
+- Partially Supported
+- Supported
+- Refuted
+
+---
+
+# 7. Chain of Reasoning
+
+Build the reasoning one step at a time.
+
+Each conclusion must be earned by the previous step.
+
+Avoid logical jumps.
+
+---
+
+# 8. Conclusion
+
+State only what the reasoning supports.
+
+Do not extend beyond the available evidence.
+
+---
+
+# 9. Supporting Evidence
+
+Possible evidence includes:
 
 - Research
 - Observations
-- Examples
-- References
+- Case Studies
 - Experiments
+- Literature
+- Development History
+- External Validation
 
 ---
 
-## 8. Challenges
+# 10. Challenges
 
-What arguments weaken this chapter?
+How could this chapter be wrong?
 
-How could it be wrong?
+What arguments weaken it?
 
-This section exists because of Rule 8 — Challenge The Framework.
+What evidence would overturn the conclusion?
 
-A chapter with no challenges listed has not yet been tested.
-
----
-
-## 9. Open Questions
-
-What remains unresolved?
+A chapter without challenges has not yet been properly tested.
 
 ---
 
-## 10. Dependencies
+# 11. Open Questions
 
-Which chapters does this depend on?
+What remains unknown?
+
+These become future chapters or research tasks.
 
 ---
 
-## 11. Used By
+# 12. Dependencies
+
+Which completed chapters does this depend on?
+
+---
+
+# 13. Used By
 
 Which future chapters depend on this one?
 
 ---
 
-## 12. Revision History
+# 14. Revision History
 
-Version history.
-
-Why it changed.
-
-On which outcome — Reaffirmed, Revised, or Replaced — per Rule 3's exception clause.
-
----
-
-## 13. Status
-
-- Draft
-- Discussion
-- Approved
-- Frozen
+- Version:
+- Reason:
+- Outcome:
+  - Reaffirmed
+  - Revised
+  - Replaced
 
 ---
 
-## The Visible Chain
+# 15. Status
 
-Every chapter should make this chain visible, in order:
+Draft
 
-```text
-Observation → Question → Chain of Reasoning → Conclusion → Evidence → Challenge → Status
-```
+↓
 
-This is what makes every chapter auditable.
+Discussion
 
-Nothing arrives without an origin.
+↓
 
-Nothing is concluded without reasoning shown.
+Testing
 
-Nothing is frozen without having been challenged.
+↓
+
+Revision
+
+↓
+
+Approved
+
+↓
+
+Frozen
+
+Only Rule 8 — Challenge the Framework may reopen a frozen chapter.
+
+---
+
+# The Visible Chain
+
+Every chapter should visibly follow this sequence:
+
+Observation
+
+↓
+
+Problem
+
+↓
+
+Assumptions
+
+↓
+
+Assumption Testing
+
+↓
+
+Chain of Reasoning
+
+↓
+
+Conclusion
+
+↓
+
+Evidence
+
+↓
+
+Challenges
+
+↓
+
+Status
+
+Nothing enters the framework without earning its place.
+
+Nothing remains in the framework without surviving challenge.
