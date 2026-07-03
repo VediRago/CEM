@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.3  
+**Version:** 0.4  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -138,10 +138,10 @@ The model section defines how CEM is configured and applied.
 
 - [410_Six_Layer_Architecture.md](../400_Model/410_Six_Layer_Architecture.md) — Defines the six-layer structure that evidence passes through from raw work to human decision.
 - [420_The_Four_Levels_of_Evidence.md](../400_Model/420_The_Four_Levels_of_Evidence.md) — Defines the boundary between observation, pattern, interpretation, and character judgment.
+- [430_The_Investigator.md](../400_Model/430_The_Investigator.md) — Defines the Investigator role and its responsibilities within the six-layer structure and four evidence levels.
 
 ## Planned / Proposed
 
-- `430_AI_Investigator.md`
 - `440_Company_Model.md`
 - `450_Evaluation_Lens.md`
 - `460_Company_Values.md`
