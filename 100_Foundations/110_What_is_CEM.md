@@ -1,8 +1,17 @@
 # 110. What is CEM?
 
+**Chapter Number:** 110
+**Title:** What is CEM?
 **Status:** Draft
+**Version:** 0.3
+**Last Reviewed:** July 3, 2026
 **Depends on:** Nothing.
-**This chapter answers:** What is CEM, in the simplest serious form?
+
+---
+
+# 1. Question
+
+What is CEM, in the simplest serious form?
 
 ---
 
@@ -48,19 +57,25 @@ This chapter defines what CEM is. Questions about why it exists, the problem it 
 
 ---
 
-# Observation
+# 2. Purpose
+
+This chapter defines what CEM is, in the shortest form that can be considered a serious definition. It exists so every later chapter can assume a shared, stable understanding of what CEM is without needing to redefine it.
+
+---
+
+# 3. Observation
 
 Minimal, by design. This chapter does not develop the observation that motivated CEM — see `120_Origin.md`. What appears here (the gap between real capability and what a summary can represent) is stated only as necessary context for the definition, not developed as evidence.
 
 ---
 
-# Problem
+# 4. Problem
 
 Minimal, by design. This chapter names the problem only as far as needed to justify the definition. The problem is developed and defended in `130_The_Problem.md`.
 
 ---
 
-# Assumptions
+# 5. Assumptions
 
 This chapter rests on assumptions it does not argue for directly:
 
@@ -72,19 +87,19 @@ These assumptions are not defended here. They are developed and tested in later 
 
 ---
 
-# Chain of Reasoning
+# 6. Chain of Reasoning
 
 Minimal, by design. A definitional chapter does not reason toward a conclusion the way an analytical chapter does — its reasoning is implicit in the definition itself. This section exists to satisfy the Blueprint's traceability requirement, not to duplicate reasoning that belongs in `120_Origin.md` or `130_The_Problem.md`.
 
 ---
 
-# Supporting Evidence
+# 7. Supporting Evidence
 
 This chapter is definitional and therefore does not introduce evidence directly. The evidence supporting this definition is developed in `120_Origin.md` and `130_The_Problem.md`.
 
 ---
 
-# Challenges
+# 8. Challenges
 
 This chapter does not argue its definition, but the definition itself can still be challenged. Open challenges include:
 
@@ -96,20 +111,37 @@ These are not resolved here. They are acknowledged so the chapter does not prese
 
 ---
 
-# Open Questions
+# 9. Open Questions
 
 None at this chapter's scope.
 
 ---
 
-# Revision History
+# 10. Dependencies
 
-- v0.1 — Initial draft, definition and scope established.
-- v0.2 — Origin/identity content moved out to keep the chapter purely definitional; heading "What CEM is at its root" renamed to "The General Problem"; closing Note rewritten to state repository methodology rather than a writing instruction; compression claim in the opening softened from "loses most of what makes the work real" to "often obscures or omits important evidence of capability" (Rule 7 — Evidence Over Opinion).
-- v0.3 — Migrated to full Blueprint v1.2 compliance. Observation, Problem, and Chain of Reasoning marked as minimal-by-design rather than complete or not applicable, since a definitional chapter's reasoning is implicit rather than developed. Assumptions, Supporting Evidence, and Challenges corrected from "Not applicable" to honest deferred status — content exists in each case but is deliberately developed in later chapters, which is different from there being no content at all.
+None.
 
 ---
 
-# Status
+# 11. Used By
+
+`120_Origin.md` — provides the origin/identity reasoning this chapter deliberately does not develop.
+
+`130_The_Problem.md` — develops the problem this chapter only names.
+
+`140_CEM_Is_Not_an_AI_Framework.md` — extends this chapter's own logic (separating CEM from hiring) to separate CEM from its technology implementation.
+
+---
+
+# 12. Revision History
+
+- v0.1 — Initial draft, definition and scope established.
+- v0.2 — Origin/identity content moved out to keep the chapter purely definitional; heading "What CEM is at its root" renamed to "The General Problem"; closing Note rewritten to state repository methodology rather than a writing instruction; compression claim in the opening softened from "loses most of what makes the work real" to "often obscures or omits important evidence of capability" (Rule 7 — Evidence Over Opinion).
+- v0.3 — Migrated to full Blueprint v1.1 compliance. Observation, Problem, and Chain of Reasoning marked as minimal-by-design rather than complete or not applicable, since a definitional chapter's reasoning is implicit rather than developed. Assumptions, Supporting Evidence, and Challenges corrected from "Not applicable" to honest deferred status — content exists in each case but is deliberately developed in later chapters, which is different from there being no content at all.
+- v0.4 — Layout normalization to match Blueprint v1.2 structure used in later chapters: numbered all section headings consistently, added the missing Purpose (Section 2), Dependencies, and Used By sections. No content or reasoning changed.
+
+---
+
+# 13. Status
 
 Draft. Ready for Discussion.
