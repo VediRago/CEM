@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.5  
+**Version:** 0.6  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -142,9 +142,11 @@ The model section defines how CEM is configured and applied.
 
 ## Planned / Proposed
 
-**Note:** Chapters listed under Planned / Proposed are working placeholders used for repository planning. Their titles, scope, numbering, and ordering are provisional until they enter active development and their supporting reasoning has been established. They should not be interpreted as finalized architecture.
+**Note:** Chapters listed under **Planned / Proposed** are working placeholders used for repository planning. Their titles, scope, numbering, and ordering are provisional and may change as the framework develops. They should not be interpreted as finalized architecture.
 
-**Current note:** The Model roadmap is expected to undergo a second architecture pass before additional Model chapters enter active development. See the open questions in `430_The_Investigator.md`.
+A chapter becomes part of CEM's architecture only after its supporting reasoning has been developed, challenged, and documented.
+
+The current Model roadmap is expected to undergo a second architecture pass before additional chapters are drafted. See the open questions in `430_The_Investigator.md`.
 
 - `440_Company_Model.md`
 - `450_Evaluation_Lens.md`
