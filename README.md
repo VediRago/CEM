@@ -10,7 +10,7 @@ The Capability Evidence Model (CEM) is a framework for evaluating human capabili
 
 Most evaluation processes—whether hiring, admissions, promotions, or choosing a collaborator—ask people to compress their capability into something small enough to be judged quickly: a CV, a portfolio, or a short interview.
 
-That compression inevitably loses evidence.
+That compression often obscures or omits important evidence of capability.
 
 CEM explores a different question:
 
@@ -85,9 +85,11 @@ Nothing earns a permanent place simply because it was written first.
 # Suggested Reading Order
 
 1. **000_Method/10_Master_Index.md** — The map of the framework.
-2. **100_Foundations/120_Origin.md** — Why the question behind CEM became impossible to ignore.
-3. **000_Method/00_CEM_Development_Method.md** — How the framework is developed.
-4. **000_Method/90_Chapter_Blueprint.md** — How every chapter is reasoned and documented.
+2. **100_Foundations/110_What_is_CEM.md** — The simplest serious definition of CEM.
+3. **100_Foundations/120_Origin.md** — Why the question behind CEM became impossible to ignore.
+4. **100_Foundations/130_The_Problem.md** — Why the origin points to a broader evaluation problem.
+5. **000_Method/00_CEM_Development_Method.md** — How the framework is developed.
+6. **000_Method/90_Chapter_Blueprint.md** — How every chapter is reasoned and documented.
 
 ---
 
