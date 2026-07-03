@@ -3,7 +3,7 @@
 **Chapter Number:** 480
 **Title:** The Investigation Dossier
 **Status:** Draft
-**Version:** 0.3
+**Version:** 0.4
 **Last Reviewed:** July 3, 2026
 **Depends on:** `410_Six_Layer_Architecture.md`, `420_The_Four_Levels_of_Evidence.md`, `430_The_Investigator.md`
 
@@ -44,6 +44,8 @@ Mapping the informally proposed dossier contents against the architecture and ev
 **Additional observations** — evidence that doesn't map to the specific criteria being evaluated for this role, but may be relevant elsewhere in the organization (per earlier discussion, item 19). This is a legitimate dossier category distinct from the main findings, since it serves Human Decision differently — it's informational, not part of the primary recommendation.
 
 **Confidence** is a new concept not yet defined anywhere in this repository. It cannot simply be a single overall number — per `420`, different claims in the same dossier will sit at different evidence levels, and a Level 2 pattern supported by five independent sources deserves more confidence than a Level 1 observation with none. Confidence should therefore attach to individual findings, not to the dossier as a whole.
+
+This gives Pattern-type Findings a direct mechanism for confidence: since a Pattern only exists because it is supported by multiple independent observations (per `420`), the number and independence of those supporting observations is the natural basis for that Finding's confidence. More independent sources supporting the same pattern should raise confidence in it; a pattern resting on only the minimum number of sources required to count as a pattern at all should carry lower confidence than one supported many times over. This chapter does not specify an exact scale or threshold for that relationship — see Open Questions.
 
 **Unresolved questions** are distinct from Confidence — a low-confidence finding is still a finding; an unresolved question is something the Investigator was unable to determine at all, and should be reported as an honest gap rather than papered over or given a false confidence score.
 
@@ -139,6 +141,7 @@ Any Level 3 interpretation offered anywhere in the dossier must be visibly marke
 - How should Evidence Evaluation weigh a finding marked "unable to verify"?
 - How should the dossier represent a single piece of evidence that supports multiple, separate patterns?
 - Traceability (Section 5 of the canonical structure) may be a bigger principle than this chapter — "every finding must be traceable back to its supporting evidence" could plausibly belong as a core CEM concept referenced from multiple chapters, not just a section within the dossier. Not resolved here; worth revisiting once more chapters exist to check whether the same need for traceability recurs elsewhere.
+- What is the actual relationship between number of independent supporting sources and confidence level for a Pattern-type Finding? This chapter establishes that more sources should raise confidence (item 21 of the July 3, 2026 conversation discoveries), but does not define a scale, threshold, or formula — this is the same unresolved measurement gap already flagged in `130_The_Problem.md`'s Challenges section, now surfacing again here.
 
 ---
 
@@ -165,6 +168,7 @@ Future Decision Support chapter — the dossier is what Layer 6 (Human Decision)
 - v0.1 — Initial draft, built from item 20 of the July 3, 2026 conversation discoveries capture, mapped explicitly against the Six-Layer Architecture, Four Levels of Evidence, and Investigator chapters. Introduced per-finding confidence and verification status as a genuinely new design decision not present in the original informal proposal, specifically to remain consistent with `420`'s requirement that different evidence levels carry different epistemic weight.
 - v0.2 — Restructured Findings so Observation and Pattern are two tiers within one category (Finding), rather than two separate parallel categories — this had been an unintentional inconsistency with Section 5's own reasoning, which already treated Pattern as Level 2 within the same evidence hierarchy as Observation's Level 1. Added a canonical dossier structure (Investigation Metadata, Findings, Additional Observations, Unresolved Questions, Traceability) so the chapter shows the actual artifact rather than only its governing rules.
 - v0.3 — Fixed the Statement field wording, which had said findings are "stated as fact" uniformly — this failed to preserve the distinction between Observation (genuinely factual) and Pattern (a fact about a pattern's existence, but bounded by what supporting evidence justifies). Flagged Traceability as a possible future core CEM principle in Open Questions, without expanding scope to formalize it as its own chapter yet.
+- v0.4 — Closed item 21 of the July 3, 2026 conversation discoveries (confidence grows with repetition). Confirmed this is not a new concept but was already implicit in the Pattern/confidence design — added explicit reasoning connecting independent source count to confidence for Pattern-type Findings, and logged the unresolved scale/threshold question in Open Questions rather than leaving it unstated.
 
 ---
 
