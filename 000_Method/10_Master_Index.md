@@ -1,6 +1,6 @@
 # CEM Master Index
 
-**Version:** 0.1  
+**Version:** 0.2  
 **Status:** Living Document  
 **Last Updated:** 2026-07-03
 
@@ -8,13 +8,23 @@
 
 ## Purpose
 
-This document defines the territory of the Capability Evidence Model (CEM).
+This document is the authoritative navigation map for the Capability Evidence Model (CEM) repository.
 
-It does not contain the model itself.
+It defines the territory of the framework, records where each chapter belongs, and provides the repository links readers should use to move through CEM.
 
-Each item below represents a chapter, section, or topic to be developed independently according to `00_CEM_Development_Method.md`.
+The Master Index is a map, not the framework itself.
 
-The Master Index is a map, not the framework.
+The README introduces CEM. The Master Index navigates CEM.
+
+---
+
+## Master Index Rule
+
+The Master Index is the source of truth for repository navigation.
+
+Every new chapter, rename, relocation, status change, or retirement must be reflected here before work continues.
+
+Repository navigation should live here, not in the README.
 
 ---
 
@@ -52,14 +62,34 @@ Example: `120_Origin.md` belongs in `100_Foundations/` because it is listed unde
 
 ---
 
+# 000 — Method
+
+The method section defines how CEM is developed, revised, structured, and governed.
+
+## Current Files
+
+- [00_CEM_Development_Method.md](./00_CEM_Development_Method.md) — Defines the working method used to develop CEM.
+- [10_Master_Index.md](./10_Master_Index.md) — Authoritative repository map and navigation index.
+- [20_Repository_Conventions.md](./20_Repository_Conventions.md) — Defines repository organization and file conventions.
+- [30_CEM_Development_Lifecycle.md](./30_CEM_Development_Lifecycle.md) — Defines how CEM moves from capture to draft to discussion to frozen structure.
+- [90_Chapter_Blueprint.md](./90_Chapter_Blueprint.md) — Active chapter structure standard.
+- [90_Chapter_Blueprint_v1.2_Draft.md](./90_Chapter_Blueprint_v1.2_Draft.md) — Draft revision of the chapter blueprint, created from migration findings.
+
+---
+
 # 100 — Foundations
 
 The foundation section defines what CEM is, why it exists, and what problem it attempts to answer.
 
-- `110_What_is_CEM.md`
-- `120_Origin.md`
-- `130_The_Problem.md`
-- `140_Vision.md`
+## Current Chapters
+
+- [110_What_is_CEM.md](../100_Foundations/110_What_is_CEM.md) — Defines CEM as an evidence investigation framework.
+- [120_Origin.md](../100_Foundations/120_Origin.md) — Documents the lived observation that led to CEM.
+- [130_The_Problem.md](../100_Foundations/130_The_Problem.md) — Tests whether the original observation generalizes into a structural problem.
+- [140_CEM_Is_Not_an_AI_Framework.md](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md) — Separates CEM from its current AI implementation.
+
+## Planned / Proposed
+
 - `150_Scope.md`
 - `160_Terminology.md`
 
@@ -68,6 +98,8 @@ The foundation section defines what CEM is, why it exists, and what problem it a
 # 200 — Philosophy
 
 The philosophy section defines the principles that govern how CEM thinks.
+
+## Planned / Proposed
 
 - `210_First_Principles.md`
 - `220_Capability_vs_Capacity.md`
@@ -85,6 +117,8 @@ The philosophy section defines the principles that govern how CEM thinks.
 
 The core concepts section defines the conceptual vocabulary of CEM.
 
+## Planned / Proposed
+
 - `310_Capability.md`
 - `320_Evidence.md`
 - `330_Confidence.md`
@@ -96,23 +130,31 @@ The core concepts section defines the conceptual vocabulary of CEM.
 
 ---
 
-# 400 — The Model
+# 400 — Model
 
 The model section defines how CEM is configured and applied.
 
-- `410_Company_Model.md`
-- `420_Evaluation_Lens.md`
-- `430_Company_Values.md`
-- `440_Capability_Profiles.md`
-- `450_Evidence_Requirements.md`
-- `460_Confidence_Model.md`
-- `470_Decision_Support.md`
+## Current Chapters
+
+- [410_The_Four_Levels_of_Evidence.md](../400_Model/410_The_Four_Levels_of_Evidence.md) — Defines the boundary between observation, pattern, interpretation, and character judgment.
+
+## Planned / Proposed
+
+- `420_Company_Model.md`
+- `430_Evaluation_Lens.md`
+- `440_Company_Values.md`
+- `450_Capability_Profiles.md`
+- `460_Evidence_Requirements.md`
+- `470_Confidence_Model.md`
+- `480_Decision_Support.md`
 
 ---
 
 # 500 — Actors
 
 The actors section defines the roles participating in CEM.
+
+## Planned / Proposed
 
 - `510_Candidate.md`
 - `520_Recruiter.md`
@@ -124,6 +166,8 @@ The actors section defines the roles participating in CEM.
 # 600 — Experiences
 
 The experiences section defines how each actor encounters and uses CEM.
+
+## Planned / Proposed
 
 - `610_Candidate_Experience.md`
 - `620_Recruiter_Experience.md`
@@ -137,6 +181,8 @@ The experiences section defines how each actor encounters and uses CEM.
 # 700 — System Architecture
 
 The architecture section defines the system-level structure that may support CEM.
+
+## Planned / Proposed
 
 - `710_Workflow.md`
 - `720_Conversation_Engine.md`
@@ -152,6 +198,8 @@ The architecture section defines the system-level structure that may support CEM
 
 The ethics section defines the constraints CEM must obey to remain fair, accountable, and trustworthy.
 
+## Planned / Proposed
+
 - `810_Bias.md`
 - `820_Fairness.md`
 - `830_Verification.md`
@@ -165,6 +213,8 @@ The ethics section defines the constraints CEM must obey to remain fair, account
 
 The research section collects outside evidence, comparisons, and market understanding.
 
+## Planned / Proposed
+
 - `910_Existing_Hiring.md`
 - `920_Existing_AI_Hiring.md`
 - `930_Competitive_Landscape.md`
@@ -177,6 +227,8 @@ The research section collects outside evidence, comparisons, and market understa
 
 The open questions section holds unresolved problems that need future reasoning.
 
+## Planned / Proposed
+
 - `1010_Assumptions.md`
 - `1020_Unresolved_Questions.md`
 - `1030_Risks.md`
@@ -187,6 +239,8 @@ The open questions section holds unresolved problems that need future reasoning.
 # 1100 — Development Diary
 
 The development diary records how CEM evolves over time.
+
+## Planned / Proposed
 
 - `1110_Daily_Log.md`
 - `1120_Design_Decisions.md`
@@ -204,18 +258,30 @@ It stores ideas that have not yet been assigned, developed, challenged, or moved
 
 Nothing should remain in Capture permanently.
 
+## Current Capture Notes
+
+- [Typed_Evidence.md](../9900_Capture/Typed_Evidence.md) — Captures the discovery that supporting evidence should be typed rather than mixed.
+- [Standardization_vs_Depth.md](../9900_Capture/Standardization_vs_Depth.md) — Captures the tension between open-ended depth and standardized evaluation.
+- [CEM_9900_Capture_Remaining_Discoveries.md](../9900_Capture/CEM_9900_Capture_Remaining_Discoveries.md) — Holds July 3 discoveries not yet drafted into chapters.
+- [CEM_9900_Capture_Five_Layer_Architecture.md](../9900_Capture/CEM_9900_Capture_Five_Layer_Architecture.md) — Captures the unresolved five-layer evaluation architecture proposal.
+- [CEM_9900_Capture_Observation_vs_Conclusion.md](../9900_Capture/CEM_9900_Capture_Observation_vs_Conclusion.md) — Captures the original observation-versus-conclusion boundary before it became Chapter 410.
+
+---
+
+# History
+
+The history section stores retired or earlier versions of documents when preservation is useful.
+
+## Current History Entries
+
+- [20_Repository_Conventions_v0.1.md](../History/20_Repository_Conventions/20_Repository_Conventions_v0.1.md) — Archived earlier version of repository conventions.
+
 ---
 
 ## Repository Sections
 
 ```text
 000_Method/
-  00_CEM_Development_Method.md
-  10_Master_Index.md
-  20_Repository_Conventions.md
-  30_CEM_Development_Lifecycle.md
-  90_Chapter_Blueprint.md
-
 100_Foundations/
 200_Philosophy/
 300_Core_Concepts/
@@ -228,6 +294,7 @@ Nothing should remain in Capture permanently.
 1000_Open_Questions/
 1100_Development_Diary/
 9900_Capture/
+History/
 ```
 
 ---
@@ -238,4 +305,4 @@ This index is not frozen.
 
 It may evolve as CEM discovers new necessary chapters.
 
-However, once a chapter number is assigned, it should remain stable.
+However, once a chapter number is assigned to a created chapter, it should remain stable.
