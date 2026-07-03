@@ -3,7 +3,7 @@
 **Chapter Number:** 420
 **Title:** The Four Levels of Evidence
 **Status:** Draft
-**Version:** 0.2
+**Version:** 0.3
 **Last Reviewed:** July 3, 2026
 **Depends on:** `130_The_Problem.md`, `410_Six_Layer_Architecture.md`
 
