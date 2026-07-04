@@ -54,8 +54,8 @@ This creates a gap between what a person is capable of and what another person c
 
 This chapter's reasoning depends on the following, not all of which are established here:
 
-- **A single documented experience can point toward a general pattern.** Established elsewhere: this is the hypothesis `130_The_Problem.md` exists to test, not something proven in this chapter.
-- **The compression problem described is structural, not personal** — i.e., not simply a matter of the observer's own communication skill. Currently untested at the time of this chapter; addressed directly in `130_The_Problem.md`, Section 4–6.
+- **A single documented experience can point toward a general pattern.** Established elsewhere: this is the hypothesis [`130 — The Problem`](130_The_Problem.md) exists to test, not something proven in this chapter.
+- **The compression problem described is structural, not personal** — i.e., not simply a matter of the observer's own communication skill. Currently untested at the time of this chapter; addressed directly in [`130 — The Problem`](130_The_Problem.md), Section 4–6.
 - **Time, not evidence quantity, is the actual bottleneck** in evaluator judgment. Established within this chapter, Section "Observation" ("the problem was not a lack of evidence, it was a lack of time to investigate that evidence") — asserted here as the chapter's central claim, not independently verified against external research.
 
 ---
@@ -83,14 +83,14 @@ That question was never really about hiring. It was about the gap between capabi
 # 7. Supporting Evidence
 
 - **Direct observation:** The fifty-day portfolio-building experience described in this chapter's Observation section. This is the chapter's primary and, at this stage, only evidence.
-- **External research:** None introduced in this chapter. Industry-level research (SHRM 2026 findings, competitive landscape) is introduced in `130_The_Problem.md`, not here — Origin is deliberately kept to the personal observation that started the question.
+- **External research:** None introduced in this chapter. Industry-level research (SHRM 2026 findings, competitive landscape) is introduced in [`130 — The Problem`](130_The_Problem.md), not here — Origin is deliberately kept to the personal observation that started the question.
 - **Industry signals:** None introduced in this chapter, for the same reason.
 
 ---
 
 # 8. Challenges
 
-- Does one person's direct experience legitimately generalize to a claim about evaluation systems broadly, or is this an overgeneralization from a single, unusual case (fifty days of unusually dense, self-directed work, which most candidates do not have)? This is not resolved here — it is the question `130_The_Problem.md` exists to test.
+- Does one person's direct experience legitimately generalize to a claim about evaluation systems broadly, or is this an overgeneralization from a single, unusual case (fifty days of unusually dense, self-directed work, which most candidates do not have)? This is not resolved here — it is the question [`130 — The Problem`](130_The_Problem.md) exists to test.
 - The chain of reasoning asserts that "time, not evidence quantity" is the real bottleneck, but this chapter does not test that claim against any case where more time was available and evaluation still failed. If such cases exist, the chapter's central claim would need revision.
 - This chapter does not address whether the observed problem is specific to hiring's current tools (résumés, interviews) or an unavoidable property of any time-constrained evaluation, including CEM's own proposed mechanism. That question is intentionally deferred, not resolved.
 
@@ -110,15 +110,16 @@ None.
 
 # 11. Used By
 
-`110_What_is_CEM.md` — receives the identity/definition conclusion that Origin deliberately does not make.
-`130_The_Problem.md` — builds directly from this chapter's Observation and Problem sections, treating them as a hypothesis to test rather than restating them.
+[`110 — What is CEM?`](110_What_is_CEM.md) — receives the identity/definition conclusion that Origin deliberately does not make.
+
+[`130 — The Problem`](130_The_Problem.md) — builds directly from this chapter's Observation and Problem sections, treating them as a hypothesis to test rather than restating them.
 
 ---
 
 # 12. Revision History
 
 - v0.1 — Initial draft. Observation, Problem, and Chain of Reasoning established.
-- v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block, Assumptions (three identified, each marked established/untested per source), Supporting Evidence (typed per the Capture note on evidence typing), and Challenges. Updated the "Used By" reference to `130_The_Problem.md`, which did not exist at the time of the previous version. No change to Observation, Problem, Chain of Reasoning, or Conclusion.
+- v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block, Assumptions (three identified, each marked established/untested per source), Supporting Evidence (typed per the Capture note on evidence typing), and Challenges. Updated the "Used By" reference to [`130 — The Problem`](130_The_Problem.md), which did not exist at the time of the previous version. No change to Observation, Problem, Chain of Reasoning, or Conclusion.
 - v0.3 — Layout normalization: numbered all section headings consistently (previously unnumbered) to match the standard used in later chapters. No content or reasoning changed.
 - v0.4 — Closed item 22 of the July 3, 2026 conversation discoveries ("patience at scale"). Folded its language directly into the existing Chain of Reasoning sentence about what a candidate gains, rather than adding it as a separate pull-quote — it sharpens a claim already being made rather than introducing a new one.
 
