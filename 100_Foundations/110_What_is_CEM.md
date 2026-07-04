@@ -65,13 +65,13 @@ This chapter defines what CEM is, in the shortest form that can be considered a 
 
 # 3. Observation
 
-Minimal, by design. This chapter does not develop the observation that motivated CEM — see `120_Origin.md`. What appears here (the gap between real capability and what a summary can represent) is stated only as necessary context for the definition, not developed as evidence.
+Minimal, by design. This chapter does not develop the observation that motivated CEM — see [`120 — Origin`](120_Origin.md). What appears here (the gap between real capability and what a summary can represent) is stated only as necessary context for the definition, not developed as evidence.
 
 ---
 
 # 4. Problem
 
-Minimal, by design. This chapter names the problem only as far as needed to justify the definition. The problem is developed and defended in `130_The_Problem.md`.
+Minimal, by design. This chapter names the problem only as far as needed to justify the definition. The problem is developed and defended in [`130 — The Problem`](130_The_Problem.md).
 
 ---
 
@@ -83,19 +83,19 @@ This chapter rests on assumptions it does not argue for directly:
 - Capability is something that can be evaluated at all.
 - Evidence is an appropriate basis for that evaluation, rather than, for instance, credentials or reputation alone.
 
-These assumptions are not defended here. They are developed and tested in later chapters — particularly `130_The_Problem.md` and the Model chapters.
+These assumptions are not defended here. They are developed and tested in later chapters — particularly [`130 — The Problem`](130_The_Problem.md) and the Model chapters.
 
 ---
 
 # 6. Chain of Reasoning
 
-Minimal, by design. A definitional chapter does not reason toward a conclusion the way an analytical chapter does — its reasoning is implicit in the definition itself. This section exists to satisfy the Blueprint's traceability requirement, not to duplicate reasoning that belongs in `120_Origin.md` or `130_The_Problem.md`.
+Minimal, by design. A definitional chapter does not reason toward a conclusion the way an analytical chapter does — its reasoning is implicit in the definition itself. This section exists to satisfy the Blueprint's traceability requirement, not to duplicate reasoning that belongs in [`120 — Origin`](120_Origin.md) or [`130 — The Problem`](130_The_Problem.md).
 
 ---
 
 # 7. Supporting Evidence
 
-This chapter is definitional and therefore does not introduce evidence directly. The evidence supporting this definition is developed in `120_Origin.md` and `130_The_Problem.md`.
+This chapter is definitional and therefore does not introduce evidence directly. The evidence supporting this definition is developed in [`120 — Origin`](120_Origin.md) and [`130 — The Problem`](130_The_Problem.md).
 
 ---
 
@@ -125,11 +125,11 @@ None.
 
 # 11. Used By
 
-`120_Origin.md` — provides the origin/identity reasoning this chapter deliberately does not develop.
+[`120 — Origin`](120_Origin.md) — provides the origin/identity reasoning this chapter deliberately does not develop.
 
-`130_The_Problem.md` — develops the problem this chapter only names.
+[`130 — The Problem`](130_The_Problem.md) — develops the problem this chapter only names.
 
-`140_CEM_Is_Not_an_AI_Framework.md` — extends this chapter's own logic (separating CEM from hiring) to separate CEM from its technology implementation.
+[`140 — CEM Is Not an AI Framework`](140_CEM_Is_Not_an_AI_Framework.md) — extends this chapter's own logic (separating CEM from hiring) to separate CEM from its technology implementation.
 
 ---
 
