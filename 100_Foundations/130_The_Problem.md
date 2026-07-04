@@ -5,7 +5,7 @@
 **Status:** Draft
 **Version:** 0.2
 **Last Reviewed:** July 3, 2026
-**Depends on:** `120_Origin.md`
+**Depends on:** [`120 — Origin`](120_Origin.md)
 
 ---
 
@@ -17,7 +17,7 @@ Why isn't the current approach to evaluation good enough?
 
 # 2. Purpose
 
-`120_Origin.md` records an observation: substantial work became harder, not easier, to communicate as it grew, because evaluation relies on compressed representations of it.
+[`120 — Origin`](120_Origin.md) records an observation: substantial work became harder, not easier, to communicate as it grew, because evaluation relies on compressed representations of it.
 
 That observation is autobiographical. This chapter treats it as a hypothesis and asks whether it holds beyond one person's experience.
 
@@ -126,7 +126,7 @@ This reframes Origin's personal observation as a general property of evaluation 
 
 # 13. Dependencies
 
-`120_Origin.md`
+[`120 — Origin`](120_Origin.md)
 
 ---
 
@@ -139,7 +139,7 @@ Later Model and Evaluation Lens chapters, which propose CEM's mechanism as a res
 # 15. Revision History
 
 - v0.1 — Initial draft. Observation through Conclusion established, along with an initial unified Supporting Evidence list and Challenges.
-- v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block. Added Assumptions section (four identified, each marked established/untested with source). Retyped Supporting Evidence into six categories per the evidence-typing fix discovered in `9900_Capture_Typed_Evidence.md` — this made visible a real gap: no External Research is currently cited anywhere in this chapter, only direct observation and industry signals. Added a corresponding Challenges item naming that gap explicitly. No change to Observation, Problem, Chain of Reasoning, or Conclusion content.
+- v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block. Added Assumptions section (four identified, each marked established/untested with source). Retyped Supporting Evidence into six categories per the evidence-typing fix discovered in [`9900 — Capture Typed Evidence`](../9900_Capture/9900_Capture_Typed_Evidence.md) — this made visible a real gap: no External Research is currently cited anywhere in this chapter, only direct observation and industry signals. Added a corresponding Challenges item naming that gap explicitly. No change to Observation, Problem, Chain of Reasoning, or Conclusion content.
 - v0.3 — Removed the redundant "This chapter answers" metadata field, since Section 1 (Question) already carries this information. Later chapters use only "Depends on" in metadata, with the actual question stated once, in Section 1.
 
 ---
