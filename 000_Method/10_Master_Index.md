@@ -28,30 +28,6 @@ Repository navigation should live here, not in the README.
 
 ---
 
-## Numbering Rule
-
-CEM uses stable decimal numbering.
-
-Existing files and chapters should not be renumbered once created.
-
-If a new chapter must be inserted between two existing chapters, use an intermediate number.
-
-Example:
-
-```text
-110_What_is_CEM.md
-120_Origin.md
-130_The_Problem.md
-```
-
-If a new chapter belongs between Origin and The Problem:
-
-```text
-125_New_Concept.md
-```
-
----
-
 ## Path Convention
 
 Chapter entries list chapter filenames.
