@@ -1,8 +1,8 @@
 # Capture — Constitutional Principle Rule
 
 **Date:** July 3, 2026
-**Source:** Discussion following the addition of the Central Principle to `110_What_is_CEM.md`
-**Belongs to:** `000_Method/00_CEM_Development_Method.md` — proposed as a new numbered rule.
+**Source:** Discussion following the addition of the Central Principle to [`110_What_is_CEM.md`](../100_Foundations/110_What_is_CEM.md)
+**Belongs to:** [`00_CEM_Development_Method.md`](../000_Method/00_CEM_Development_Method.md) — proposed as a new numbered rule.
 
 ---
 
@@ -22,4 +22,4 @@ The value of a single constitutional principle isn't the phrase itself — it's 
 
 ## Status
 
-Captured, proposed as a Development Method rule. Not yet formally added to `00_CEM_Development_Method.md`, since that file is maintained directly in the repository and was not available to edit in this session.
+Captured, proposed as a Development Method rule. Not yet formally added to [`00_CEM_Development_Method.md`](../000_Method/00_CEM_Development_Method.md), since that file is maintained directly in the repository and was not available to edit in this session.
