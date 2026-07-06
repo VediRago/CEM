@@ -23,7 +23,7 @@ Two related observations emerged during CEM's development that describe the *pro
 
 # 3. Observation — Framework-First Methodology (closes item 10)
 
-Across this repository's development, a consistent pattern recurred: structure was built before content. The Master Index existed before most chapters did. The Chapter Blueprint existed before most chapters used it. The Six-Layer Architecture (410) was resolved before any chapter describing what happens inside those layers was written. Even within individual chapters, the canonical dossier structure in `480_The_Investigation_Dossier.md` was added after the chapter's reasoning, once the reasoning made clear what shape the artifact needed to take.
+Across this repository's development, a consistent pattern recurred: structure was built before content. The Master Index existed before most chapters did. The Chapter Blueprint existed before most chapters used it. The Six-Layer Architecture ([`410_Six_Layer_Architecture.md`](../400_Model/410_Six_Layer_Architecture.md)) was resolved before any chapter describing what happens inside those layers was written. Even within individual chapters, the canonical dossier structure in [`480_The_Investigation_Dossier.md`](../400_Model/480_The_Investigation_Dossier.md) was added after the chapter's reasoning, once the reasoning made clear what shape the artifact needed to take.
 
 This was not planned in advance as a stated methodology. It was noticed as a recurring pattern only after happening repeatedly.
 
@@ -45,9 +45,9 @@ Both observations describe the same underlying habit — build the frame, then f
 
 # 6. A Note on Classification
 
-Per `420_The_Four_Levels_of_Evidence.md`, it is worth being explicit about what kind of claims Sections 3 and 4 actually are. Section 3 (framework-first methodology observed within this repository) is a Level 2 pattern — it recurred multiple times, within a single, examinable body of work (this repository's own file history), and can be checked by anyone reviewing that history.
+Per [`420_The_Four_Levels_of_Evidence.md`](../400_Model/420_The_Four_Levels_of_Evidence.md), it is worth being explicit about what kind of claims Sections 3 and 4 actually are. Section 3 (framework-first methodology observed within this repository) is a Level 2 pattern — it recurred multiple times, within a single, examinable body of work (this repository's own file history), and can be checked by anyone reviewing that history.
 
-Section 4 (the same pattern observed across multiple, separate projects) edges toward a claim about a person's working method — which is closer to Level 3 interpretation than a bare Level 1/2 fact, and this diary entry does not attempt to elevate it to a settled conclusion about anyone's character (Level 4). It is recorded here as a process observation worth noting, explicitly marked as observational rather than diagnostic, consistent with the discipline `420` establishes elsewhere in this repository.
+Section 4 (the same pattern observed across multiple, separate projects) edges toward a claim about a person's working method — which is closer to Level 3 interpretation than a bare Level 1/2 fact, and this diary entry does not attempt to elevate it to a settled conclusion about anyone's character (Level 4). It is recorded here as a process observation worth noting, explicitly marked as observational rather than diagnostic, consistent with the discipline [`420_The_Four_Levels_of_Evidence.md`](../400_Model/420_The_Four_Levels_of_Evidence.md) establishes elsewhere in this repository.
 
 ---
 
