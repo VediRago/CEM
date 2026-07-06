@@ -5,7 +5,7 @@
 **Status:** Draft
 **Version:** 0.3
 **Last Reviewed:** July 3, 2026
-**Depends on:** `130_The_Problem.md`, `410_Six_Layer_Architecture.md`
+**Depends on:** [`130_The_Problem.md`](../100_Foundations/130_The_Problem.md), [`410_Six_Layer_Architecture.md`](410_Six_Layer_Architecture.md)
 
 ---
 
@@ -134,7 +134,7 @@ This is not a limitation added out of caution. It is what keeps CEM's output dis
 **Direct observation:**
 - The item 24 case itself — a real instance where CEM's own development process produced a pattern-level statement about its author, examined directly in Section 7.
 
-**External research:** None cited in this chapter. This is a genuine gap, consistent with the same gap flagged in `130_The_Problem.md`.
+**External research:** None cited in this chapter. This is a genuine gap, consistent with the same gap flagged in [`130_The_Problem.md`](../100_Foundations/130_The_Problem.md).
 
 **Industry signals:** None cited in this chapter.
 
@@ -165,9 +165,9 @@ This is not a limitation added out of caution. It is what keeps CEM's output dis
 
 # 13. Dependencies
 
-`130_The_Problem.md`
+[`130_The_Problem.md`](../100_Foundations/130_The_Problem.md)
 
-`410_Six_Layer_Architecture.md`
+[`410_Six_Layer_Architecture.md`](410_Six_Layer_Architecture.md)
 
 ---
 
@@ -183,7 +183,7 @@ Future Ethics chapters addressing bias, since this chapter raises but does not r
 
 - v0.1 — Initial draft. Built from a real discussion prompted by a live case (item 24 in the July 3, 2026 conversation discoveries), using the four-level Observation → Pattern → Interpretation → Character structure to test whether CEM's own development process had already violated the rule this chapter establishes.
 - v0.2 — Renamed from "Observation vs. Conclusion" to "The Four Levels of Evidence," since the chapter's real contribution is the four-level model, not a binary. Tightened Section 6's closing rule to avoid using "concludes" for Level 1/2 activity, mirroring the chapter's own reserved language. Added a closing sentence after Section 7 making explicit that this chapter is itself an instance of the self-correction it argues for.
-- v0.3 — Renumbered from 410 to 420, added `410_Six_Layer_Architecture.md` as a dependency. Fixed Section 3's opening, which called the item-24 statement a "conclusion" before the chapter had actually classified it — a violation of the chapter's own terminology. Changed to the neutral word "statement," letting Section 7 perform the actual classification rather than pre-labeling the answer.
+- v0.3 — Renumbered from 410 to 420, added [`410_Six_Layer_Architecture.md`](410_Six_Layer_Architecture.md) as a dependency. Fixed Section 3's opening, which called the item-24 statement a "conclusion" before the chapter had actually classified it — a violation of the chapter's own terminology. Changed to the neutral word "statement," letting Section 7 perform the actual classification rather than pre-labeling the answer.
 
 ---
 
