@@ -1,0 +1,22 @@
+name: CEM Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  integrity:
+    name: Repository integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run CEM integrity checks
+        run: python scripts/check_cem_integrity.py
