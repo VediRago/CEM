@@ -5,7 +5,7 @@
 **Status:** Draft
 **Version:** 0.1
 **Last Reviewed:** July 3, 2026
-**Depends on:** `130_The_Problem.md`, `140_CEM_Is_Not_an_AI_Framework.md`
+**Depends on:** [`130_The_Problem.md`](../100_Foundations/130_The_Problem.md), [`140_CEM_Is_Not_an_AI_Framework.md`](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md)
 
 ---
 
@@ -43,7 +43,7 @@ Testing where the two models genuinely agree and where one is structurally weake
 
 The five-layer model's first three layers — Company Values, Role, Project/Team — describe something the three-layer model never specified: what actually constitutes a company's evaluation lens. The three-layer model simply asserted "Evaluation is standardized per company" without describing what that standard is built from. This is a real, non-duplicated contribution.
 
-The five-layer model's fourth layer, "Investigation," is too coarse. It does not preserve the distinction between open-ended evidence gathering and standardized judgment — a distinction the three-layer model was built specifically to protect against the articulateness-reward risk (see the capture note on Standardization vs. Depth). Collapsing Discovery and Evaluation into a single "Investigation" layer would quietly reintroduce the exact fairness risk that split was designed to prevent.
+The five-layer model's fourth layer, "Investigation," is too coarse. It does not preserve the distinction between open-ended evidence gathering and standardized judgment — a distinction the three-layer model was built specifically to protect against the articulateness-reward risk (see the capture note on [Standardization vs. Depth](../9900_Capture/Standardization_vs_Depth.md)). Collapsing Discovery and Evaluation into a single "Investigation" layer would quietly reintroduce the exact fairness risk that split was designed to prevent.
 
 The five-layer model's fifth layer, "Human Decision," matches the three-layer model's third layer, "Decision," directly. No conflict there.
 
@@ -110,15 +110,15 @@ Layers 4 and 5 remain deliberately separate. This is not a stylistic choice — 
 
 # 11. Dependencies
 
-`130_The_Problem.md` — this architecture exists only because 130 already established that evidence investigation is preferable to compression. Without that argument, there would be no reason to build an investigation architecture at all.
+[`130_The_Problem.md`](../100_Foundations/130_The_Problem.md) — this architecture exists only because 130 already established that evidence investigation is preferable to compression. Without that argument, there would be no reason to build an investigation architecture at all.
 
-`140_CEM_Is_Not_an_AI_Framework.md`
+[`140_CEM_Is_Not_an_AI_Framework.md`](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md)
 
 ---
 
 # 12. Used By
 
-All subsequent Model chapters — `420_The_Four_Levels_of_Evidence.md`, the AI Investigator chapter, the Company Model, Evaluation Lens, Company Values, Evidence Requirements, Investigation Dossier, and Decision Support chapters — all operate within this six-layer structure and should reference it explicitly rather than re-deriving their own architecture.
+All subsequent Model chapters — [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md), the AI Investigator chapter, the Company Model, Evaluation Lens, Company Values, Evidence Requirements, Investigation Dossier, and Decision Support chapters — all operate within this six-layer structure and should reference it explicitly rather than re-deriving their own architecture.
 
 ---
 
