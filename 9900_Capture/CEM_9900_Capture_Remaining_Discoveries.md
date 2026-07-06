@@ -8,11 +8,11 @@
 
 ## CEM is not an AI framework (item 1)
 
-CEM is an evidence investigation framework. AI is the current implementation that makes large-scale investigation practical — not the definition of CEM itself. This may need to be stated explicitly somewhere near `110_What_is_CEM.md` or in a dedicated Model chapter, since it prevents CEM from being permanently tied to one specific technology.
+CEM is an evidence investigation framework. AI is the current implementation that makes large-scale investigation practical — not the definition of CEM itself. This may need to be stated explicitly somewhere near [`110_What_is_CEM.md`](../100_Foundations/110_What_is_CEM.md) or in a dedicated Model chapter, since it prevents CEM from being permanently tied to one specific technology.
 
 ## Investigation replaces compression (item 2)
 
-Restates and extends `130_The_Problem.md`'s existing argument — evidence is investigated before a human decision, rather than compressed in advance by the candidate. Likely belongs as connective tissue between `130_The_Problem.md` and the first Model chapter, not a standalone chapter of its own.
+Restates and extends [`130_The_Problem.md`](../100_Foundations/130_The_Problem.md)'s existing argument — evidence is investigated before a human decision, rather than compressed in advance by the candidate. Likely belongs as connective tissue between [`130_The_Problem.md`](../100_Foundations/130_The_Problem.md) and the first Model chapter, not a standalone chapter of its own.
 
 ## The AI investigator's role, explicitly listed (item 3)
 
@@ -20,7 +20,7 @@ Its role: investigate evidence, ask follow-up questions, organize findings, veri
 
 ## Investigation is conversational; the conversation itself becomes evidence (item 5)
 
-Questions emerge from the candidate's own work, not a generic script. Connects directly to the Standardization vs. Depth capture — this is the mechanism that makes open-ended discovery possible without becoming arbitrary.
+Questions emerge from the candidate's own work, not a generic script. Connects directly to the [Standardization vs. Depth](Standardization_vs_Depth.md) capture — this is the mechanism that makes open-ended discovery possible without becoming arbitrary.
 
 ## Claims are investigated, not accepted or rejected outright (item 6)
 
@@ -44,11 +44,11 @@ A recurring pattern noticed across tonight's work: build the framework first, th
 
 ## Framework evolution through use (item 11)
 
-Restates Rule 8 in different words — frameworks should improve through real use, and weaknesses discovered while applying them become evidence for refinement. Already well-established in `00_CEM_Development_Method.md` and proven twice tonight (the Blueprint's own v1.1 → v1.2 evolution). Likely doesn't need a new chapter — just a cross-reference.
+Restates Rule 8 in different words — frameworks should improve through real use, and weaknesses discovered while applying them become evidence for refinement. Already well-established in [`00_CEM_Development_Method.md`](../000_Method/00_CEM_Development_Method.md) and proven twice tonight (the Blueprint's own v1.1 → v1.2 evolution). Likely doesn't need a new chapter — just a cross-reference.
 
 ## Company-specific models, one shared framework (item 12)
 
-There is one CEM framework; each organization builds its own evaluation model on top of it. Consistent with, and probably belongs inside, whichever chapter resolves the Five-Layer Architecture conflict — this is the "Company values" layer described from a different angle.
+There is one CEM framework; each organization builds its own evaluation model on top of it. Consistent with, and probably belongs inside, whichever chapter resolves the [Five-Layer Architecture](CEM_9900_Capture_Five_Layer_Architecture.md) conflict — this is the "Company values" layer described from a different angle.
 
 ## Both sides benefit (item 18)
 
@@ -78,7 +78,7 @@ Across Narrative Design, UX, the Chapter Blueprint, and CEM itself, one principl
 
 "The candidate repeatedly develops frameworks that preserve complex information while making it easier for others to understand, investigate, navigate, and build upon." Stated as a conclusion that emerged from accumulated evidence rather than self-description.
 
-**Flag, not yet resolved:** Item 24 is, by CEM's own Observation vs. Conclusion rule (see the dedicated capture note), a *conclusion*, not an observation — and it was generated inside CEM's own development process, about CEM's own author, without the human-interpretation step the framework itself insists on elsewhere. Worth deciding deliberately whether this is legitimate self-reflection (a person and an AI reasoning together, informally, outside the formal CEM mechanism) or an example of the exact violation Section 14/17 warns against, surfaced accidentally inside the repository that defines the rule. This is worth its own honest discussion, not a quiet pass-through.
+**Flag, not yet resolved:** Item 24 is, by CEM's own Observation vs. Conclusion rule (see the [dedicated capture note](CEM_9900_Capture_Observation_vs_Conclusion.md)), a *conclusion*, not an observation — and it was generated inside CEM's own development process, about CEM's own author, without the human-interpretation step the framework itself insists on elsewhere. Worth deciding deliberately whether this is legitimate self-reflection (a person and an AI reasoning together, informally, outside the formal CEM mechanism) or an example of the exact violation Section 14/17 warns against, surfaced accidentally inside the repository that defines the rule. This is worth its own honest discussion, not a quiet pass-through.
 
 ---
 
