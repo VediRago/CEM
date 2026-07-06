@@ -2,7 +2,7 @@
 
 **Date:** July 3, 2026
 **Source:** CEM_Conversation_Discoveries_July_3_2026.md, item 13
-**Conflict to resolve:** This proposes five layers. An earlier capture (`9900_Capture_Standardization_vs_Depth.md`, same date) already proposed three layers (Discovery, Evaluation, Decision). These have not yet been reconciled.
+**Conflict to resolve:** This proposes five layers. An earlier capture ([`Standardization_vs_Depth.md`](Standardization_vs_Depth.md), same date) already proposed three layers (Discovery, Evaluation, Decision). These have not yet been reconciled.
 
 ---
 
