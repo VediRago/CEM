@@ -25,4 +25,4 @@ This is not just an ethical nicety — it's a load-bearing constraint that shoul
 
 ## Status
 
-Captured, not yet drafted as a chapter. Candidate chapter numbers to consider: `410_Observation_vs_Conclusion.md` (Model) or a placement inside `800_Ethics/`. Decision on placement deferred — see the companion capture note on the layer architecture, since this may need to sit adjacent to wherever the Investigation layer is formally defined.
+Captured, not yet drafted as a chapter. Candidate chapter numbers to consider: `410_Observation_vs_Conclusion.md` (Model) or a placement inside `800_Ethics/`. Decision on placement deferred — see the companion capture note on the [layer architecture](CEM_9900_Capture_Five_Layer_Architecture.md), since this may need to sit adjacent to wherever the Investigation layer is formally defined.
