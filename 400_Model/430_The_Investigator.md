@@ -5,7 +5,7 @@
 **Status:** Draft
 **Version:** 0.3
 **Last Reviewed:** July 3, 2026
-**Depends on:** `410_Six_Layer_Architecture.md`, `420_The_Four_Levels_of_Evidence.md`
+**Depends on:** [`410_Six_Layer_Architecture.md`](410_Six_Layer_Architecture.md), [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md)
 
 ---
 
@@ -17,9 +17,9 @@ What, precisely, is the Investigator allowed to do inside CEM's process — and 
 
 # 2. Purpose
 
-`410_Six_Layer_Architecture.md` establishes that Evidence Discovery and Evidence Evaluation are distinct layers. `420_The_Four_Levels_of_Evidence.md` establishes that CEM may state observations and patterns as fact, may offer interpretations only when marked as such, and must never make character judgments. Neither chapter defines who or what actually does this work. This chapter defines the Investigator's role precisely enough that later chapters (the dossier, Evidence Requirements) can build on a concrete job description rather than an implied one.
+[`410_Six_Layer_Architecture.md`](410_Six_Layer_Architecture.md) establishes that Evidence Discovery and Evidence Evaluation are distinct layers. [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md) establishes that CEM may state observations and patterns as fact, may offer interpretations only when marked as such, and must never make character judgments. Neither chapter defines who or what actually does this work. This chapter defines the Investigator's role precisely enough that later chapters (the dossier, Evidence Requirements) can build on a concrete job description rather than an implied one.
 
-In CEM's current implementation, per `140_CEM_Is_Not_an_AI_Framework.md`, this role is performed by an AI. Nothing in this chapter's definition of the role depends on that being true — a future implementation could perform the same role differently, and this chapter should still hold.
+In CEM's current implementation, per [`140_CEM_Is_Not_an_AI_Framework.md`](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md), this role is performed by an AI. Nothing in this chapter's definition of the role depends on that being true — a future implementation could perform the same role differently, and this chapter should still hold.
 
 ---
 
@@ -41,7 +41,7 @@ An investigator role stated only as a list of verbs ("investigate," "ask," "orga
 
 Mapping the informal list against the architecture already established:
 
-**Investigate evidence, ask follow-up questions** — this is Evidence Discovery (Layer 4). It is deliberately open-ended and candidate-led, per 410. The Investigator's responsibility here includes actively surfacing evidence rather than passively waiting for a candidate to volunteer it — this was the resolution to the articulateness-reward risk (Standardization vs. Depth): the burden of thoroughness sits with the Investigator, not with how well a candidate happens to narrate their own work.
+**Investigate evidence, ask follow-up questions** — this is Evidence Discovery (Layer 4). It is deliberately open-ended and candidate-led, per 410. The Investigator's responsibility here includes actively surfacing evidence rather than passively waiting for a candidate to volunteer it — this was the resolution to the articulateness-reward risk ([Standardization vs. Depth](../9900_Capture/Standardization_vs_Depth.md)): the burden of thoroughness sits with the Investigator, not with how well a candidate happens to narrate their own work.
 
 **Organize findings, identify recurring patterns** — this produces Level 1 and Level 2 evidence per 420 (observations and patterns), and it can happen throughout Discovery, not only at its end.
 
@@ -74,7 +74,7 @@ The Investigator does not evaluate evidence against a standard (that is Layer 5'
 
 - **A single Investigator can perform Discovery, Verification, and Reporting without those roles conflicting with each other.** Untested. It is possible that an investigator optimized for open-ended discovery is poorly suited to rigorous verification, or that combining these functions in one actor creates its own bias risk — this is not examined here.
 - **"Verify where possible" is achievable at meaningful scale.** Untested. Some evidence (a working prototype, a public repository with commit history) is straightforwardly verifiable. Other evidence (a private claim about a past role or contribution) may not be verifiable by the Investigator at all — this chapter does not specify what happens when verification is not possible.
-- **The Investigator can reliably distinguish Level 1/2 from Level 3 in its own output in practice**, not just in principle. Established as a requirement in `420_The_Four_Levels_of_Evidence.md`; not yet tested against a real, generated report.
+- **The Investigator can reliably distinguish Level 1/2 from Level 3 in its own output in practice**, not just in principle. Established as a requirement in [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md); not yet tested against a real, generated report.
 
 ---
 
@@ -112,15 +112,15 @@ The Investigator does not evaluate evidence against a standard (that is Layer 5'
 
 # 11. Dependencies
 
-`410_Six_Layer_Architecture.md`
+[`410_Six_Layer_Architecture.md`](410_Six_Layer_Architecture.md)
 
-`420_The_Four_Levels_of_Evidence.md`
+[`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md)
 
 ---
 
 # 12. Used By
 
-`480_The_Investigation_Dossier.md` — defines the concrete output format this chapter's "present transparent reports" responsibility produces.
+[`480_The_Investigation_Dossier.md`](480_The_Investigation_Dossier.md) — defines the concrete output format this chapter's "present transparent reports" responsibility produces.
 
 `490_Evidence_Requirements.md` — likely needs to address the verification gap this chapter identifies but does not resolve.
 
@@ -129,8 +129,8 @@ The Investigator does not evaluate evidence against a standard (that is Layer 5'
 # 13. Revision History
 
 - v0.1 — Initial draft, built from item 3 of the July 3, 2026 conversation discoveries capture, mapped explicitly against the Six-Layer Architecture and Four Levels of Evidence chapters. Identified verification as a distinct function not cleanly belonging to either Discovery or Evaluation, and flagged as an open gap rather than resolved.
-- v0.2 — Renamed from "The AI Investigator" to "The Investigator," and body text genericized accordingly. The original title violated `140_CEM_Is_Not_an_AI_Framework.md`'s own requirement that later chapters be written so they would still hold under a future non-AI implementation. Added an explicit implementation note in Section 2 instead, stating that AI performs this role currently without the role's definition depending on that fact.
-- v0.3 — Fixed a broken filename reference in Used By: `480_Investigation_Dossier.md` corrected to `480_The_Investigation_Dossier.md`, matching the file's actual name. Updated Evidence Requirements references from chapter 470 to chapter 490 to match the current Master Index placeholder.
+- v0.2 — Renamed from "The AI Investigator" to "The Investigator," and body text genericized accordingly. The original title violated [`140_CEM_Is_Not_an_AI_Framework.md`](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md)'s own requirement that later chapters be written so they would still hold under a future non-AI implementation. Added an explicit implementation note in Section 2 instead, stating that AI performs this role currently without the role's definition depending on that fact.
+- v0.3 — Fixed a broken filename reference in Used By: `480_Investigation_Dossier.md` corrected to [`480_The_Investigation_Dossier.md`](480_The_Investigation_Dossier.md), matching the file's actual name. Updated Evidence Requirements references from chapter 470 to chapter 490 to match the current Master Index placeholder.
 
 ---
 
