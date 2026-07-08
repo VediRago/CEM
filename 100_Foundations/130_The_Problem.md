@@ -3,8 +3,8 @@
 **Chapter Number:** 130
 **Title:** The Problem
 **Status:** Draft
-**Version:** 0.2
-**Last Reviewed:** July 3, 2026
+**Version:** 0.4
+**Last Reviewed:** July 8, 2026
 **Depends on:** [`120 — Origin`](120_Origin.md)
 
 ---
@@ -86,6 +86,8 @@ The issue is that they are optimized for efficient filtering under limited time 
 
 This reframes Origin's personal observation as a general property of evaluation systems, not a complaint about any specific tool. The observation holds beyond one person's experience whenever the underlying condition in Section 6 is present.
 
+This chapter establishes the compression problem. [`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md) develops the next principle: if summaries and proxies lose capability evidence, CEM should not accept the proxy as the thing itself. It should investigate the evidence behind it.
+
 ---
 
 # 10. Supporting Evidence
@@ -132,6 +134,10 @@ This reframes Origin's personal observation as a general property of evaluation 
 
 # 14. Used By
 
+[`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md) — uses this chapter's compression problem as the reason CEM must investigate capability rather than assume from proxies.
+
+[`410 — Six-Layer Architecture`](../400_Model/410_Six_Layer_Architecture.md) — proposes CEM's mechanism as a response to the problem established here.
+
 Later Model and Evaluation Lens chapters, which propose CEM's mechanism as a response to the problem established here.
 
 ---
@@ -141,6 +147,7 @@ Later Model and Evaluation Lens chapters, which propose CEM's mechanism as a res
 - v0.1 — Initial draft. Observation through Conclusion established, along with an initial unified Supporting Evidence list and Challenges.
 - v0.2 — Migrated to Blueprint v1.2 compliance. Added Metadata block. Added Assumptions section (four identified, each marked established/untested with source). Retyped Supporting Evidence into six categories per the evidence-typing fix discovered in [`9900 — Capture Typed Evidence`](../9900_Capture/Typed_Evidence.md) — this made visible a real gap: no External Research is currently cited anywhere in this chapter, only direct observation and industry signals. Added a corresponding Challenges item naming that gap explicitly. No change to Observation, Problem, Chain of Reasoning, or Conclusion content.
 - v0.3 — Removed the redundant "This chapter answers" metadata field, since Section 1 (Question) already carries this information. Later chapters use only "Depends on" in metadata, with the actual question stated once, in Section 1.
+- v0.4 — Added cross-reference to [`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md), clarifying that this chapter establishes the compression problem while 210 derives the investigation principle from it. Added 410 as an explicit Used By entry.
 
 ---
 
