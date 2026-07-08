@@ -3,8 +3,8 @@
 **Chapter Number:** 110
 **Title:** What is CEM?
 **Status:** Draft
-**Version:** 0.3
-**Last Reviewed:** July 3, 2026
+**Version:** 0.5
+**Last Reviewed:** July 8, 2026
 **Depends on:** Nothing.
 
 ---
@@ -53,7 +53,7 @@ A résumé is a claim. CEM evaluates evidence.
 
 ## Note
 
-This chapter defines what CEM is. Questions about why it exists, the problem it addresses, and how it operates belong to their respective chapters. Keeping those questions separate ensures each chapter answers only one question.
+This chapter defines what CEM is. Questions about why it exists, the problem it addresses, how it differs from ATS-style assumption, and how it operates belong to their respective chapters. Keeping those questions separate ensures each chapter answers only one question.
 
 ---
 
@@ -83,19 +83,19 @@ This chapter rests on assumptions it does not argue for directly:
 - Capability is something that can be evaluated at all.
 - Evidence is an appropriate basis for that evaluation, rather than, for instance, credentials or reputation alone.
 
-These assumptions are not defended here. They are developed and tested in later chapters — particularly [`130 — The Problem`](130_The_Problem.md) and the Model chapters.
+These assumptions are not defended here. They are developed and tested in later chapters — particularly [`130 — The Problem`](130_The_Problem.md), [`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md), and the Model chapters.
 
 ---
 
 # 6. Chain of Reasoning
 
-Minimal, by design. A definitional chapter does not reason toward a conclusion the way an analytical chapter does — its reasoning is implicit in the definition itself. This section exists to satisfy the Blueprint's traceability requirement, not to duplicate reasoning that belongs in [`120 — Origin`](120_Origin.md) or [`130 — The Problem`](130_The_Problem.md).
+Minimal, by design. A definitional chapter does not reason toward a conclusion the way an analytical chapter does — its reasoning is implicit in the definition itself. This section exists to satisfy the Blueprint's traceability requirement, not to duplicate reasoning that belongs in [`120 — Origin`](120_Origin.md), [`130 — The Problem`](130_The_Problem.md), or [`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md).
 
 ---
 
 # 7. Supporting Evidence
 
-This chapter is definitional and therefore does not introduce evidence directly. The evidence supporting this definition is developed in [`120 — Origin`](120_Origin.md) and [`130 — The Problem`](130_The_Problem.md).
+This chapter is definitional and therefore does not introduce evidence directly. The evidence supporting this definition is developed in [`120 — Origin`](120_Origin.md), [`130 — The Problem`](130_The_Problem.md), and [`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md).
 
 ---
 
@@ -131,6 +131,8 @@ None.
 
 [`140 — CEM Is Not an AI Framework`](140_CEM_Is_Not_an_AI_Framework.md) — extends this chapter's own logic (separating CEM from hiring) to separate CEM from its technology implementation.
 
+[`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md) — develops this chapter's shortest definition into CEM's founding distinction from ATS-style proxy assumption.
+
 ---
 
 # 12. Revision History
@@ -139,6 +141,7 @@ None.
 - v0.2 — Origin/identity content moved out to keep the chapter purely definitional; heading "What CEM is at its root" renamed to "The General Problem"; closing Note rewritten to state repository methodology rather than a writing instruction; compression claim in the opening softened from "loses most of what makes the work real" to "often obscures or omits important evidence of capability" (Rule 7 — Evidence Over Opinion).
 - v0.3 — Migrated to full Blueprint v1.1 compliance. Observation, Problem, and Chain of Reasoning marked as minimal-by-design rather than complete or not applicable, since a definitional chapter's reasoning is implicit rather than developed. Assumptions, Supporting Evidence, and Challenges corrected from "Not applicable" to honest deferred status — content exists in each case but is deliberately developed in later chapters, which is different from there being no content at all.
 - v0.4 — Layout normalization to match Blueprint v1.2 structure used in later chapters: numbered all section headings consistently, added the missing Purpose (Section 2), Dependencies, and Used By sections. No content or reasoning changed.
+- v0.5 — Added cross-references to [`210 — An ATS Assumes. CEM Investigates.`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md), clarifying that this definitional chapter names CEM while 210 develops the founding distinction between investigation and ATS-style assumption.
 
 ---
 
