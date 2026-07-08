@@ -3,8 +3,8 @@
 **Chapter Number:** 480
 **Title:** The Investigation Dossier
 **Status:** Draft
-**Version:** 0.5
-**Last Reviewed:** July 3, 2026
+**Version:** 0.6
+**Last Reviewed:** July 8, 2026
 **Depends on:** [`410_Six_Layer_Architecture.md`](410_Six_Layer_Architecture.md), [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md), [`430_The_Investigator.md`](430_The_Investigator.md)
 
 ---
@@ -59,7 +59,7 @@ This gives Pattern-type Findings a direct mechanism for confidence: since a Patt
 
 The Investigation Dossier is a structured document, not a narrative account of the conversation that produced it. Its primary content is a set of **Findings**, where each Finding is either an Observation (Level 1) or a Pattern (Level 2) — not two separate categories, but two tiers within the same category, consistent with [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md). Each Finding carries its own confidence and verification status rather than the dossier receiving a single overall score.
 
-Beyond Findings, the dossier separately reports Unresolved Questions (gaps the Investigator could not determine, distinct from low confidence) and Additional Observations (relevant evidence outside the immediate evaluation criteria, kept structurally separate since it serves Human Decision differently than the primary findings). Additional Observations exist because a candidate who is not a match for the specific role being evaluated may still show recurring strengths valuable elsewhere in the organization — this category preserves that evidence rather than discarding it simply because it falls outside the current evaluation's scope. What later actors do with that evidence is outside this chapter's scope; the dossier's responsibility is only to preserve it, not to decide its use.
+Beyond Findings, the dossier separately reports Unresolved Questions (gaps the Investigator could not determine, distinct from low confidence) and Additional Observations (relevant evidence outside the immediate evaluation criteria, kept structurally separate since it serves Human Decision differently than the primary findings). Additional Observations exist because a candidate who is not a match for the specific role being evaluated may still show recurring strengths valuable elsewhere in the organization — this category preserves that evidence rather than discarding it simply because it falls outside the current evaluation's scope. What later actors do with that evidence is outside this chapter's scope; the dossier's responsibility is only to preserve that evidence, not to decide its use.
 
 The dossier may contain Level 3 interpretation only when it is explicitly identified as interpretation. It never contains Level 4 character judgment under any circumstance.
 
@@ -108,13 +108,15 @@ Any Level 3 interpretation offered anywhere in the dossier must be visibly marke
 
 - **Confidence can be meaningfully attached to individual findings rather than expressed as a single overall score.** Established as this chapter's central design choice; not yet tested against a real generated dossier.
 - **Verification status can be recorded per piece of evidence without resolving whether Verification deserves its own architectural layer.** This is a deliberate hedge — the dossier format is designed to work regardless of how that open question in [`430_The_Investigator.md`](430_The_Investigator.md) is eventually resolved.
-- **"Additional observations" (evidence relevant outside the immediate role) is worth including as a standing category, not just an occasional aside.** Untested — this is inherited from item 19 of the source discussion and not independently re-argued here.
+- **"Additional observations" (evidence relevant outside the immediate role) is worth including as a standing category, not just an occasional aside.** Untested — this is inherited from item 19 of the source discussion and not independently re-argued here. [`485_One_Investigation_Many_Decisions.md`](485_One_Investigation_Many_Decisions.md) develops the consequence of this assumption, but does not by itself test it.
 
 ---
 
 # 8. Supporting Evidence
 
 **Direct observation:** This chapter's own construction — mapping an informally proposed content list against the architecture, evidence-level, and Investigator chapters, and finding most of it consistent, with Confidence requiring a genuinely new design decision (per-finding rather than dossier-wide) not present in the original informal list.
+
+**Internal framework support:** [`485_One_Investigation_Many_Decisions.md`](485_One_Investigation_Many_Decisions.md) depends on this chapter's decision to preserve Additional Observations and structured Findings; without a dossier that preserves reusable evidence, one investigation could not support multiple future decisions.
 
 **External research:** None cited.
 
@@ -161,6 +163,8 @@ Future Evaluation Lens chapter — consumes the dossier as its primary input.
 
 Future Decision Support chapter — the dossier is what Layer 6 (Human Decision) ultimately reviews.
 
+[`485_One_Investigation_Many_Decisions.md`](485_One_Investigation_Many_Decisions.md) — depends on the dossier's preservation of Findings and Additional Observations as reusable evidence rather than a posting-specific verdict.
+
 ---
 
 # 13. Revision History
@@ -170,6 +174,7 @@ Future Decision Support chapter — the dossier is what Layer 6 (Human Decision)
 - v0.3 — Fixed the Statement field wording, which had said findings are "stated as fact" uniformly — this failed to preserve the distinction between Observation (genuinely factual) and Pattern (a fact about a pattern's existence, but bounded by what supporting evidence justifies). Flagged Traceability as a possible future core CEM principle in Open Questions, without expanding scope to formalize it as its own chapter yet.
 - v0.4 — Closed item 21 of the July 3, 2026 conversation discoveries (confidence grows with repetition). Confirmed this is not a new concept but was already implicit in the Pattern/confidence design — added explicit reasoning connecting independent source count to confidence for Pattern-type Findings, and logged the unresolved scale/threshold question in Open Questions rather than leaving it unstated.
 - v0.5 — Closed item 19 of the July 3, 2026 conversation discoveries (additional/incidental observations). The dossier's Additional Observations category already existed but was defined generically; sharpened it to state the specific reason it exists — a candidate not matching the current role may still show strengths valuable elsewhere in the organization — and clarified that the dossier's responsibility is only to preserve that evidence, not to decide how it is used, deferring that question to future Actors chapters.
+- v0.6 — Added explicit cross-reference to [`485_One_Investigation_Many_Decisions.md`](485_One_Investigation_Many_Decisions.md), clarifying that the dossier preserves reusable evidence while 485 develops the model consequence of that preservation.
 
 ---
 
