@@ -3,9 +3,9 @@
 **Chapter Number:** 410
 **Title:** Six-Layer Architecture
 **Status:** Draft
-**Version:** 0.1
-**Last Reviewed:** July 3, 2026
-**Depends on:** [`130_The_Problem.md`](../100_Foundations/130_The_Problem.md), [`140_CEM_Is_Not_an_AI_Framework.md`](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md)
+**Version:** 0.2
+**Last Reviewed:** July 8, 2026
+**Depends on:** [`130_The_Problem.md`](../100_Foundations/130_The_Problem.md), [`140_CEM_Is_Not_an_AI_Framework.md`](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md), [`210_An_ATS_Assumes_CEM_Investigates.md`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md)
 
 ---
 
@@ -18,6 +18,8 @@ What are the distinct layers a piece of evidence passes through, from a candidat
 # 2. Purpose
 
 Two separate proposals emerged from earlier discussion of this repository: a three-layer process (Evidence Discovery, Evidence Evaluation, Decision) and a five-layer structure (Company Values, Role, Project/Team, Investigation, Human Decision). Every later Model chapter — the AI investigator's role, the Evaluation Lens, the investigation dossier — needs a single, resolved architecture to build against. This chapter provides that architecture.
+
+This chapter also gives structural form to the principle established in [`210_An_ATS_Assumes_CEM_Investigates.md`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md): if CEM investigates rather than assumes, the model must show where evidence is discovered, where it is evaluated, and where the human decision is made, without collapsing those operations into a single opaque step.
 
 ---
 
@@ -72,7 +74,7 @@ Layers 4 and 5 remain deliberately separate. This is not a stylistic choice — 
 # 7. Assumptions
 
 - **A company's evaluation lens can be fully described by three nested layers (Values, Role, Project/Team) and no more.** Untested. It is possible a real company's context requires more or fewer layers of specificity; this chapter asserts three as sufficient without testing against a real evaluation lens built end-to-end.
-- **Discovery and Evaluation must remain separate to prevent the articulateness-reward risk.** Established elsewhere — this is inherited directly from the earlier Standardization vs. Depth resolution, not re-argued here.
+- **Discovery and Evaluation must remain separate to prevent the articulateness-reward risk.** Established elsewhere — this is inherited directly from the earlier Standardization vs. Depth resolution and reinforced by [`210_An_ATS_Assumes_CEM_Investigates.md`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md), which requires investigation to produce evidence rather than an opaque verdict.
 - **Human Decision (Layer 6) is a distinct operation from Evidence Evaluation (Layer 5), not a restatement of it.** Established in this chapter's reasoning (two companies could evaluate identical evidence identically and still decide differently due to different weighting) — but not tested against a real case.
 
 ---
@@ -80,6 +82,8 @@ Layers 4 and 5 remain deliberately separate. This is not a stylistic choice — 
 # 8. Supporting Evidence
 
 **Direct observation:** This chapter's own development — two independently proposed architectures, from two separate discussions, tested against each other and found to be reconcilable rather than contradictory. This is a single internal case, not external validation.
+
+**Internal framework support:** [`210_An_ATS_Assumes_CEM_Investigates.md`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md) provides the principle that makes this architecture necessary: CEM investigates rather than assumes, so the model must preserve the distinction between evidence discovery, evidence evaluation, and human decision.
 
 **External research:** None cited.
 
@@ -114,17 +118,22 @@ Layers 4 and 5 remain deliberately separate. This is not a stylistic choice — 
 
 [`140_CEM_Is_Not_an_AI_Framework.md`](../100_Foundations/140_CEM_Is_Not_an_AI_Framework.md)
 
+[`210_An_ATS_Assumes_CEM_Investigates.md`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md) — supplies the founding principle this architecture operationalizes: CEM investigates evidence instead of assuming from proxies.
+
 ---
 
 # 12. Used By
 
-All subsequent Model chapters — [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md), the AI Investigator chapter, the Company Model, Evaluation Lens, Company Values, Evidence Requirements, Investigation Dossier, and Decision Support chapters — all operate within this six-layer structure and should reference it explicitly rather than re-deriving their own architecture.
+All subsequent Model chapters — [`420_The_Four_Levels_of_Evidence.md`](420_The_Four_Levels_of_Evidence.md), the AI Investigator chapter, the Company Model, Evaluation Lens, Company Values, Evidence Requirements, Investigation Dossier, One Investigation / Many Decisions, and Decision Support chapters — all operate within this six-layer structure and should reference it explicitly rather than re-deriving their own architecture.
+
+[`485_One_Investigation_Many_Decisions.md`](485_One_Investigation_Many_Decisions.md) — relies on the separation between Evaluation Lens, Evidence Discovery, Evidence Evaluation, and Human Decision to make reusable evidence possible.
 
 ---
 
 # 13. Revision History
 
 - v0.1 — Initial draft. Resolves the conflict between the previously captured three-layer and five-layer proposals by combining them: adopting the five-layer model's context-nesting insight (Company Values → Role → Project/Team) while preserving the three-layer model's Discovery/Evaluation separation, which the five-layer model's single "Investigation" layer would otherwise have collapsed.
+- v0.2 — Added explicit dependency on [`210_An_ATS_Assumes_CEM_Investigates.md`](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md), clarifying that the six-layer architecture operationalizes the founding investigation principle by keeping Evidence Discovery, Evidence Evaluation, and Human Decision structurally separate. Added `485_One_Investigation_Many_Decisions.md` to Used By.
 
 ---
 
