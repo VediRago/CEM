@@ -1,8 +1,8 @@
 # CEM Master Index
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** Living Document  
-**Last Updated:** 2026-07-03
+**Last Updated:** 2026-07-08
 
 ---
 
@@ -75,9 +75,12 @@ The foundation section defines what CEM is, why it exists, and what problem it a
 
 The philosophy section defines the principles that govern how CEM thinks.
 
+## Current Chapters
+
+- [210_An_ATS_Assumes_CEM_Investigates.md](../200_Philosophy/210_An_ATS_Assumes_CEM_Investigates.md) — Establishes CEM's founding distinction from ATS-style filtering: an ATS assumes from proxies; CEM investigates evidence of capability.
+
 ## Planned / Proposed
 
-- `210_First_Principles.md`
 - `220_Capability_vs_Capacity.md`
 - `230_Evidence_vs_Claims.md`
 - `240_Evidence_vs_Presentation.md`
@@ -119,6 +122,7 @@ The model section defines how CEM is configured and applied.
 - [420_The_Four_Levels_of_Evidence.md](../400_Model/420_The_Four_Levels_of_Evidence.md) — Defines the boundary between observation, pattern, interpretation, and character judgment.
 - [430_The_Investigator.md](../400_Model/430_The_Investigator.md) — Defines the Investigator role and its responsibilities within the six-layer structure and four evidence levels.
 - [480_The_Investigation_Dossier.md](../400_Model/480_The_Investigation_Dossier.md) — Defines the structured output produced by the Investigator for Evidence Evaluation and Human Decision.
+- [485_One_Investigation_Many_Decisions.md](../400_Model/485_One_Investigation_Many_Decisions.md) — Defines the model consequence of investigation producing reusable evidence rather than a posting-specific verdict.
 
 ## Planned / Proposed
 
